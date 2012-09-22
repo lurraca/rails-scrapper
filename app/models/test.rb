@@ -1,4 +1,5 @@
 require './crawler'
   keywords = ['mail','intl']
-  c = Crawler.new
-  c.crawl('http://www.ewef.com/', keywords)
+  c = Crawler.new('http://www.google.com.do/', keywords)
+  c.crawl
+  c.isBusiness

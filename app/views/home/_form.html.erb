@@ -1,0 +1,13 @@
+<div>
+	Example:
+	www.example.com
+	example.com
+</div>
+<%= form_tag("/do_crawl", :method =>:post, :class=>"form2") do %>
+  <div class="single-site-form">
+    <%= text_field_tag(:url,nil,:class=>"input-large", :id=>"single-validate") %>
+    <%= submit_tag("Crawl",:class=>"btn btn-primary") %>
+    <p class="help-block">Insert the site URL.</p>
+  </div>
+  <%= text_field_tag(:keywords,nil,:class=>"input-large", :id =>"keywords-select", :style=>"width: 290px;") %>
+<% end %>
