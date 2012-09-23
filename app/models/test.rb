@@ -1,5 +1,5 @@
 require './crawler'
-  keywords = ['mail','intl']
-  c = Crawler.new('http://www.google.com.do/', keywords)
+  keywords = ['services','thegame']
+  c = Crawler.new('http://www.google.com/', keywords, 5)
   c.crawl
-  c.isBusiness
+  puts c.isBusiness

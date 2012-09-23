@@ -9,6 +9,7 @@ gem 'sqlite3'
 gem 'mechanize'
 gem 'bootstrap-sass', '~> 2.1.0.0'
 gem 'bootswatch-rails'
+gem 'to_regexp'
 gem "select2-rails"
 # Gems used only for assets and not required
 # in production environments by default.
