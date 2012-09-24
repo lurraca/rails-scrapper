@@ -4,5 +4,11 @@
 
 
 $ ->
-	$("#keywords-select").select2
-        tags:["services", "promotion", "careers","team", "agency", "company", "clients", "enquiries", "solutions", "benefits", "product", "brochure"], tokenSeparators: [",", " "]
+  $("#keywords-select").select2
+   tags: ["services", "promotion", "careers", "team", "agency", "company", "clients", "enquiries", "solutions", "benefits", "product", "brochure"]
+   tokenSeparators: [",", " "]
+    
+  $("#cl-btn").click ->
+   $("#keywords-select").select2 "val", ""
+
+  $(".select2-input").attr('data-validation', 'validate-url');

@@ -9,7 +9,7 @@ class HomeController < ApplicationController
   def do_crawl
   	@keywords =[]
   	@keywords = params[:keywords].split(",")
-  	@crawler = Crawler.new(params[:url],@keywords)
+  	@crawler = Crawler.new(params[:url],@keywords,params[:min_keywords].to_i)
   	logger.debug "Keywords: " + @keywords.to_s
   	@crawler.crawl
   	@a = @crawler.isBusiness

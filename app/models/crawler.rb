@@ -2,16 +2,17 @@ require 'rubygems'
 require 'mechanize'
 require 'to_regexp'
 class Crawler
+  attr_reader :matched_keywords, :quantity_to_match
   def initialize(url,keywords,quantity_to_match)
     @url = url
     @keywords = keywords
+    @matched_keywords = Hash.new
     @quantity_to_match =  quantity_to_match
     @isBusiness = false
     @isActive
   end
 
   def crawl  #Method will accept URL and Keywords will check each link agaisnt the keyword to detect if business
-    match_count = 0
     agent = Mechanize.new
     begin
       page = agent.get(@url)
@@ -27,17 +28,13 @@ class Crawler
         str = "/"+keyword.to_s+"/" #Turn keyword into regexp
         regexp = str.to_regexp
         if regexp.match(link.uri.to_s).nil?
-        #if /thegame/.match(link.uri.to_s).nil?
           puts link.uri
         else
-          match_count += 1
-          puts match_count
+          @matched_keywords[keyword] = link.uri.to_s #HASH of matched keywords
         end
       end
     end
-    puts @quantity_to_match
-    puts match_count
-    @isBusiness = true if match_count >= @quantity_to_match
+    @isBusiness = true if @matched_keywords.values.uniq.count >= @quantity_to_match
   end
 
   def isBusiness
@@ -54,5 +51,9 @@ class Crawler
 
   def isActive
     @isActive
+  end
+
+  def matched_keywords
+    @matched_keywords
   end
 end

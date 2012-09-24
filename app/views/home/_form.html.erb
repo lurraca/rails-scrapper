@@ -1,13 +1,34 @@
-<div>
-	Example:
-	www.example.com
-	example.com
-</div>
-<%= form_tag("/do_crawl", :method =>:post, :class=>"form2") do %>
+<%= form_tag("/do_crawl", :method =>:post, :class=>"form-horizontal") do %>
   <div class="single-site-form">
-    <%= text_field_tag(:url,nil,:class=>"input-large", :id=>"single-validate") %>
-    <%= submit_tag("Crawl",:class=>"btn btn-primary") %>
-    <p class="help-block">Insert the site URL.</p>
+  	<fieldset>
+    	<legend>Single site validator</legend>
+	  	<div class="field control-group">
+	  		<%= label_tag :url, "URL", :class=>"control-label" %>
+	  		<div class="controls">
+	  			<%= text_field_tag(:url,nil,:class=>"input-large", :id=>"single-validate") %>
+	  		    <p class="help-block">Insert the site URL. Example: http://www.google.com</p>
+	  		</div>
+	  	</div>
+	  	<div class="field control-group">
+	  		<%= label_tag :min_keywords, "Min. # Keywords", :class=>"control-label" %>
+	  		<div class="controls">
+	  			<%= text_field_tag(:min_keywords, nil, :class =>"input-mini	") %>
+	  			<p class="help-block">Numbers of keywords to be matched in order for site be a Business</p>
+	  		</div>
+		</div>
+	  	<div class="field control-group">
+	  		<%= label_tag :keywords, "Keywords", :class=>"control-label" %>
+	  		<div class="controls">
+		 		<%= text_area_tag(:keywords,nil,:class=>"input-large", :id =>"keywords-select", :style=>"width: 290px;") %>
+		 		<a id="cl-btn" class="btn">Clear</a>
+		 		<p class="help-block">Add keywords using , or tabs after each word</p>
+
+	  		</div>
+	  	</div>
+	  	<div class="actions form-actions">
+	  		<%= submit_tag("Crawl",:class=>"btn btn-primary") %>
+    		<button class="btn" onClick="this.form.reset()" type="button">Reset fields</button>
+  		</div>
+	    <p class="help-block">Insert the site URL.</p>
   </div>
-  <%= text_field_tag(:keywords,nil,:class=>"input-large", :id =>"keywords-select", :style=>"width: 290px;") %>
 <% end %>
