@@ -11,7 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120927015945) do
+ActiveRecord::Schema.define(:version => 20120927064809) do
+
+  create_table "batches", :force => true do |t|
+    t.string   "status"
+    t.text     "keywords"
+    t.datetime "started_time"
+    t.datetime "finish_time"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
 
   create_table "settings", :force => true do |t|
     t.string   "var",                      :null => false
@@ -23,5 +32,17 @@ ActiveRecord::Schema.define(:version => 20120927015945) do
   end
 
   add_index "settings", ["thing_type", "thing_id", "var"], :name => "index_settings_on_thing_type_and_thing_id_and_var", :unique => true
+
+  create_table "sites", :force => true do |t|
+    t.string   "url"
+    t.boolean  "scapped"
+    t.boolean  "valid"
+    t.string   "title"
+    t.integer  "batch_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "sites", ["batch_id"], :name => "index_sites_on_batch_id"
 
 end

@@ -10,7 +10,7 @@ gem 'mechanize'
 gem 'bootstrap-sass', '~> 2.1.0.0'
 gem 'bootswatch-rails'
 gem 'to_regexp'
-gem 'ClassyEnum'
+gem 'classy_enum'
 gem "select2-rails"
 gem "rails-settings-cached"
 # Gems used only for assets and not required
