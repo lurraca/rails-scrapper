@@ -9,6 +9,7 @@
 		</tr>
 	</thead>
 	<tr>
+		<% unless @crawler.nil? %>
 		<td><%= @crawler.url %></td>
 		<td><%= @crawler.isActive %></td>
 		<td><%= @crawler.isBusiness %></td>
@@ -34,4 +35,5 @@
 		</tr>
 			<% end %>
 	</table>
+	<% end %>
 </div>
