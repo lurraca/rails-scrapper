@@ -3,6 +3,8 @@ RailsScrapper::Application.routes.draw do
   get "/single" => "home#single_crawl"
   get "/multi" => "home#multi_crawl"
   post "/do_crawl" => "home#do_crawl"
+  get "/settings" => "home#settings"
+  post "/update" => "home#update_settings"
   root :to => "home#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.

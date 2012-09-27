@@ -3,8 +3,8 @@ require "benchmark"
   
 
  
-  keywords = ['services','mail','intl']
-  c = Crawler.new('http://www.google.com/', keywords, 1)
+  keywords = ['agency','services','mail','intl', 'STANDINGS', 'Carrer', 'Carrers', 'Inicio', 'Images', 'honda', 'These']
+  c = Crawler.new('http://www.billfryer.com', keywords, 1)
   time = Benchmark.measure do
   	  c.crawl
 

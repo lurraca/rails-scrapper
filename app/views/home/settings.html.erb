@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="page-header">
+    <h3>
+      Application Settings
+    </h3>
+  </div>
+  <h3>
+    Keywords
+  </h3>
+  <%= form_tag("/update", :method =>:post, :class=>"form-horizontal") do %>
+   <div class="field control-group">
+        <%= label_tag :min_keywords, "Min. # Keywords", :class=>"control-label" %>
+        <div class="controls">
+          <%= text_field_tag(:min_keywords,@settings.min_keywords, :class =>"input-mini") %>
+          <p class="help-block">Numbers of keywords to be matched in order for site be a Business</p>
+        </div>
+    </div>
+      <div class="field control-group">
+        <%= label_tag :keywords, "Keywords", :class=>"control-label" %>
+        <div class="controls">
+        <%= text_area_tag(:keywords,@settings.keywords,:class=>"input-large", :id =>"keywords-select", :style=>"width: 290px;") %>
+        <a id="cl-btn" class="btn">Clear</a>
+        <p class="help-block">Add keywords using , or tabs after each word</p>
+        </div>
+      </div>
+      <div class="actions form-actions">
+        <%= submit_tag("Update Setting",:class=>"btn btn-primary") %>
+        <button class="btn" onClick="this.form.reset()" type="button">Reset fields</button>
+      </div>
+  <% end %>
+</div>

@@ -1,0 +1,13 @@
+# config/settings.yml
+defaults: &defaults
+  keywords_to_match: 10
+  keywords: "services, crap, okthen, promition, carrer, feninfiwe"
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

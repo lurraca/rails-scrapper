@@ -115,6 +115,8 @@ GEM
       activesupport (= 3.2.8)
       bundler (~> 1.0)
       railties (= 3.2.8)
+    rails-settings-cached (0.2.2)
+      rails (>= 3.0.0)
     railties (3.2.8)
       actionpack (= 3.2.8)
       activesupport (= 3.2.8)
@@ -188,6 +190,7 @@ DEPENDENCIES
   launchy
   mechanize
   rails (= 3.2.8)
+  rails-settings-cached
   rspec-rails
   sass-rails (~> 3.2.3)
   select2-rails

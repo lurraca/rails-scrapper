@@ -27,10 +27,11 @@ class Crawler
       @keywords.each do |keyword| #For every keyword provided
         str = "/"+keyword.to_s+"/" #Turn keyword into regexp
         regexp = str.to_regexp
-        if regexp.match(link.uri.to_s).nil?
+        if regexp.match(link.uri.to_s).nil? and regexp.match(link.text).nil?
           puts link.uri
+          puts link.text
         else
-          @matched_keywords[keyword] = link.uri.to_s #HASH of matched keywords
+          @matched_keywords[keyword] = link #HASH of matched keywords
         end
       end
     end

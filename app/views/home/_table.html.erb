@@ -2,17 +2,36 @@
 	<thead class="table-bw">
 		<tr>
 			<th>URL</th>
-			<th>isValid</th>
-			<th>isBusiness</th>
-			<th></th>
-			<th>Info1</th>
+			<th>Valid site?</th>
+			<th>Business site?</th>
+			<th>Keywords</th>
+			<th>Min # of Keywords</th>
 		</tr>
 	</thead>
 	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td><%= @crawler.url %></td>
+		<td><%= @crawler.isActive %></td>
+		<td><%= @crawler.isBusiness %></td>
+		<td><%= @crawler.keywords %></td>
+		<td><%= @crawler.quantity_to_match %></td>
 	</tr>
 </table>
+<div class="span8">
+	<h4>Keywords matched with internal links on <%= @crawler.url %></h4>
+	<table class="table table-bordered table-condensed span6">
+		<thead class="table-bw">
+			<tr>
+				<th>Keyword</th>
+				<th>Internal link text</th>
+				<th>Internal link url</th>
+			</tr>
+		</thead>
+		<% @crawler.matched_keywords.each do |key,value| %>
+		<tr>
+			<td><%= key %></td>
+			<td><%= value %></td>
+			<td><%= value.uri %></td>
+		</tr>
+			<% end %>
+	</table>
+</div>

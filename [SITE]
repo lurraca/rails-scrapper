@@ -1,0 +1,21 @@
+[SITE]
+batch_id reference
+URL string
+Title string
+isActive Boleean
+isBusiness Boleean
+belongs_to
+
+[MATCHED]
+SITE_ID reference
+full_path
+
+[BATCH]
+row_count int
+row_scrapped int
+keywords string
+s3_path string
+has_many sites
+
+
+export PATH="/usr/bin/ruby:/usr/local/bin/ruby"
