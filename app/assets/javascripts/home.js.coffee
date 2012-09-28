@@ -6,7 +6,7 @@
 $ ->
   $("#keywords-select").select2
    tags: ["services", "promotion", "careers", "team", "agency", "company", "clients", "enquiries", "solutions", "benefits", "product", "brochure"]
-   tokenSeparators: [",", " "]
+   tokenSeparators: [","]
     
   $("#cl-btn").click ->
    $("#keywords-select").select2 "val", ""

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120927064809) do
+ActiveRecord::Schema.define(:version => 20120927084840) do
 
   create_table "batches", :force => true do |t|
     t.string   "status"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(:version => 20120927064809) do
     t.datetime "finish_time"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
+    t.integer  "min_keywords"
   end
 
   create_table "settings", :force => true do |t|
@@ -36,11 +37,12 @@ ActiveRecord::Schema.define(:version => 20120927064809) do
   create_table "sites", :force => true do |t|
     t.string   "url"
     t.boolean  "scapped"
-    t.boolean  "valid"
+    t.boolean  "valid_site"
     t.string   "title"
     t.integer  "batch_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.boolean  "business"
   end
 
   add_index "sites", ["batch_id"], :name => "index_sites_on_batch_id"

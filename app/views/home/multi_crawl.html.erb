@@ -1,0 +1,32 @@
+<%= form_tag("/upload", :class=>"form-horizontal", :onsubmit=>"return $(this).validate()", :multipart => true) do %>
+  <div class="single-site-form">
+  	<fieldset>
+    	<legend>Multisite Validator</legend>
+	  	<div class="field control-group">
+	  		<%= label_tag :inputfile, "Input File", :class=>"control-label" %>
+	  		<div class="controls">
+	  			<%= file_field_tag :inputfile %>
+	  		    <p class="help-block">Upload the file with the URL to be crawled.</p>
+	  		</div>
+	  	</div>
+	  	<div class="field control-group">
+	  		<%= label_tag :min_keywords, "Min. # Keywords", :class=>"control-label" %>
+	  		<div class="controls">
+	  			<%= text_field_tag(:min_keywords,@settings.min_keywords, :class =>"input-mini", :disabled=>true) %>
+	  			<p class="help-block">Numbers of keywords to be matched in order for site be a Business</p>
+	  		</div>
+		</div>
+	  	<div class="field control-group">
+	  		<%= label_tag :keywords, "Keywords", :class=>"control-label" %>
+	  		<div class="controls">
+		 		<%= text_area_tag(:keywords,@settings.keywords,:class=>"input-large", :id =>"keywords-select", :style=>"width: 290px;", :disabled => true) %>
+		 		<p class="help-block">Add keywords using , or tabs after each word</p>
+
+	  		</div>
+	  	</div>
+	  	<div class="actions form-actions">
+	  		<%= submit_tag("Process Data",:class=>"btn btn-primary") %>
+  		</div>
+	</fieldset>
+  </div>
+<% end %>
