@@ -68358,3 +68358,1949 @@ request-header: accept-encoding => gzip,deflate,identity
 request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
 request-header: accept-language => en-us,en;q=0.5
 request-header: host => shit
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => cldf-bereavement.co.uk
+status: Net::HTTPFound 1.1 302 Found
+response-header: date => Sat, 29 Sep 2012 08:05:27 GMT
+response-header: server => Apache
+response-header: location => http://cldf-peace-bereavement.org
+response-header: content-length => 217
+response-header: keep-alive => timeout=2, max=200
+response-header: connection => Keep-Alive
+response-header: content-type => text/html; charset=iso-8859-1
+Read 217 bytes (217 total)
+follow redirect to: http://cldf-peace-bereavement.org
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => cldf-peace-bereavement.org
+status: Net::HTTPOK 1.1 200 OK
+response-header: cache-control => private
+response-header: content-length => 56508
+response-header: content-type => text/html; charset=utf-8
+response-header: server => Microsoft-IIS/7.0
+response-header: x-aspnet-version => 2.0.50727
+response-header: set-cookie => SiteID=3; path=/; HttpOnly, ASP.NET_SessionId=5xvjs1jnqtm5lqqy1m33ppyc; path=/; HttpOnly
+response-header: x-powered-by => ASP.NET
+response-header: date => Sat, 29 Sep 2012 08:05:28 GMT
+Read 1032 bytes (1032 total)
+Read 1368 bytes (2400 total)
+Read 1368 bytes (3768 total)
+Read 1368 bytes (5136 total)
+Read 1368 bytes (6504 total)
+Read 1368 bytes (7872 total)
+Read 1368 bytes (9240 total)
+Read 1368 bytes (10608 total)
+Read 1368 bytes (11976 total)
+Read 1368 bytes (13344 total)
+Read 1368 bytes (14712 total)
+Read 1368 bytes (16080 total)
+Read 1368 bytes (17448 total)
+Read 1368 bytes (18816 total)
+Read 1368 bytes (20184 total)
+Read 1368 bytes (21552 total)
+Read 1368 bytes (22920 total)
+Read 1368 bytes (24288 total)
+Read 1368 bytes (25656 total)
+Read 1368 bytes (27024 total)
+Read 1368 bytes (28392 total)
+Read 1368 bytes (29760 total)
+Read 1368 bytes (31128 total)
+Read 1368 bytes (32496 total)
+Read 1368 bytes (33864 total)
+Read 1368 bytes (35232 total)
+Read 1368 bytes (36600 total)
+Read 1368 bytes (37968 total)
+Read 1368 bytes (39336 total)
+Read 1368 bytes (40704 total)
+Read 1368 bytes (42072 total)
+Read 1368 bytes (43440 total)
+Read 1368 bytes (44808 total)
+Read 1368 bytes (46176 total)
+Read 1368 bytes (47544 total)
+Read 1368 bytes (48912 total)
+Read 1368 bytes (50280 total)
+Read 1368 bytes (51648 total)
+Read 1368 bytes (53016 total)
+Read 1368 bytes (54384 total)
+Read 1368 bytes (55752 total)
+Read 756 bytes (56508 total)
+saved cookie: SiteID=3
+saved cookie: ASP.NET_SessionId=5xvjs1jnqtm5lqqy1m33ppyc
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => cldf-bereavement.co.uk
+status: Net::HTTPFound 1.1 302 Found
+response-header: date => Sat, 29 Sep 2012 08:10:53 GMT
+response-header: server => Apache
+response-header: location => http://cldf-peace-bereavement.org
+response-header: content-length => 217
+response-header: keep-alive => timeout=2, max=200
+response-header: connection => Keep-Alive
+response-header: content-type => text/html; charset=iso-8859-1
+Read 217 bytes (217 total)
+follow redirect to: http://cldf-peace-bereavement.org
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => cldf-peace-bereavement.org
+status: Net::HTTPOK 1.1 200 OK
+response-header: cache-control => private
+response-header: content-length => 56508
+response-header: content-type => text/html; charset=utf-8
+response-header: server => Microsoft-IIS/7.0
+response-header: x-aspnet-version => 2.0.50727
+response-header: set-cookie => SiteID=3; path=/; HttpOnly, ASP.NET_SessionId=eq5c4r45dy1yxj45qqm5gm3s; path=/; HttpOnly
+response-header: x-powered-by => ASP.NET
+response-header: date => Sat, 29 Sep 2012 08:10:53 GMT
+Read 1032 bytes (1032 total)
+Read 1368 bytes (2400 total)
+Read 1368 bytes (3768 total)
+Read 1368 bytes (5136 total)
+Read 1368 bytes (6504 total)
+Read 1368 bytes (7872 total)
+Read 1368 bytes (9240 total)
+Read 1368 bytes (10608 total)
+Read 1368 bytes (11976 total)
+Read 1368 bytes (13344 total)
+Read 1368 bytes (14712 total)
+Read 1368 bytes (16080 total)
+Read 1368 bytes (17448 total)
+Read 1368 bytes (18816 total)
+Read 1368 bytes (20184 total)
+Read 1368 bytes (21552 total)
+Read 1368 bytes (22920 total)
+Read 1368 bytes (24288 total)
+Read 1368 bytes (25656 total)
+Read 1368 bytes (27024 total)
+Read 1368 bytes (28392 total)
+Read 1368 bytes (29760 total)
+Read 1368 bytes (31128 total)
+Read 1368 bytes (32496 total)
+Read 1368 bytes (33864 total)
+Read 1368 bytes (35232 total)
+Read 1368 bytes (36600 total)
+Read 1368 bytes (37968 total)
+Read 1368 bytes (39336 total)
+Read 1368 bytes (40704 total)
+Read 1368 bytes (42072 total)
+Read 1368 bytes (43440 total)
+Read 1368 bytes (44808 total)
+Read 1368 bytes (46176 total)
+Read 1368 bytes (47544 total)
+Read 1368 bytes (48912 total)
+Read 1368 bytes (50280 total)
+Read 1368 bytes (51648 total)
+Read 1368 bytes (53016 total)
+Read 1368 bytes (54384 total)
+Read 1368 bytes (55752 total)
+Read 756 bytes (56508 total)
+saved cookie: SiteID=3
+saved cookie: ASP.NET_SessionId=eq5c4r45dy1yxj45qqm5gm3s
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => cldf-peace-bereavement.org
+status: Net::HTTPOK 1.1 200 OK
+response-header: cache-control => private
+response-header: content-length => 56508
+response-header: content-type => text/html; charset=utf-8
+response-header: server => Microsoft-IIS/7.0
+response-header: x-aspnet-version => 2.0.50727
+response-header: set-cookie => SiteID=3; path=/; HttpOnly, ASP.NET_SessionId=vyr2n4yc3vbncjjhxxkzuo55; path=/; HttpOnly
+response-header: x-powered-by => ASP.NET
+response-header: date => Sat, 29 Sep 2012 08:13:52 GMT
+Read 1032 bytes (1032 total)
+Read 1368 bytes (2400 total)
+Read 1368 bytes (3768 total)
+Read 1368 bytes (5136 total)
+Read 1368 bytes (6504 total)
+Read 1368 bytes (7872 total)
+Read 1368 bytes (9240 total)
+Read 1368 bytes (10608 total)
+Read 1368 bytes (11976 total)
+Read 1368 bytes (13344 total)
+Read 1368 bytes (14712 total)
+Read 1368 bytes (16080 total)
+Read 1368 bytes (17448 total)
+Read 1368 bytes (18816 total)
+Read 1368 bytes (20184 total)
+Read 1368 bytes (21552 total)
+Read 1368 bytes (22920 total)
+Read 1368 bytes (24288 total)
+Read 1368 bytes (25656 total)
+Read 1368 bytes (27024 total)
+Read 1368 bytes (28392 total)
+Read 1368 bytes (29760 total)
+Read 1368 bytes (31128 total)
+Read 1368 bytes (32496 total)
+Read 1368 bytes (33864 total)
+Read 1368 bytes (35232 total)
+Read 1368 bytes (36600 total)
+Read 1368 bytes (37968 total)
+Read 1368 bytes (39336 total)
+Read 1368 bytes (40704 total)
+Read 1368 bytes (42072 total)
+Read 1368 bytes (43440 total)
+Read 1368 bytes (44808 total)
+Read 1368 bytes (46176 total)
+Read 1368 bytes (47544 total)
+Read 1368 bytes (48912 total)
+Read 1368 bytes (50280 total)
+Read 1368 bytes (51648 total)
+Read 1368 bytes (53016 total)
+Read 1368 bytes (54384 total)
+Read 1368 bytes (55752 total)
+Read 756 bytes (56508 total)
+saved cookie: SiteID=3
+saved cookie: ASP.NET_SessionId=vyr2n4yc3vbncjjhxxkzuo55
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => cldf-peace-bereavement.org
+status: Net::HTTPOK 1.1 200 OK
+response-header: cache-control => private
+response-header: content-length => 56508
+response-header: content-type => text/html; charset=utf-8
+response-header: server => Microsoft-IIS/7.0
+response-header: x-aspnet-version => 2.0.50727
+response-header: set-cookie => SiteID=3; path=/; HttpOnly, ASP.NET_SessionId=3f4eoy55q53qxj45pk1my145; path=/; HttpOnly
+response-header: x-powered-by => ASP.NET
+response-header: date => Sat, 29 Sep 2012 08:14:06 GMT
+Read 1032 bytes (1032 total)
+Read 1368 bytes (2400 total)
+Read 1368 bytes (3768 total)
+Read 1368 bytes (5136 total)
+Read 1368 bytes (6504 total)
+Read 1368 bytes (7872 total)
+Read 1368 bytes (9240 total)
+Read 1368 bytes (10608 total)
+Read 1368 bytes (11976 total)
+Read 1368 bytes (13344 total)
+Read 1368 bytes (14712 total)
+Read 1368 bytes (16080 total)
+Read 1368 bytes (17448 total)
+Read 1368 bytes (18816 total)
+Read 1368 bytes (20184 total)
+Read 1368 bytes (21552 total)
+Read 1368 bytes (22920 total)
+Read 1368 bytes (24288 total)
+Read 1368 bytes (25656 total)
+Read 1368 bytes (27024 total)
+Read 1368 bytes (28392 total)
+Read 1368 bytes (29760 total)
+Read 1368 bytes (31128 total)
+Read 1368 bytes (32496 total)
+Read 1368 bytes (33864 total)
+Read 1368 bytes (35232 total)
+Read 1368 bytes (36600 total)
+Read 1368 bytes (37968 total)
+Read 1368 bytes (39336 total)
+Read 1368 bytes (40704 total)
+Read 1368 bytes (42072 total)
+Read 1368 bytes (43440 total)
+Read 1368 bytes (44808 total)
+Read 1368 bytes (46176 total)
+Read 1368 bytes (47544 total)
+Read 1368 bytes (48912 total)
+Read 1368 bytes (50280 total)
+Read 1368 bytes (51648 total)
+Read 1368 bytes (53016 total)
+Read 1368 bytes (54384 total)
+Read 1368 bytes (55752 total)
+Read 756 bytes (56508 total)
+saved cookie: SiteID=3
+saved cookie: ASP.NET_SessionId=3f4eoy55q53qxj45pk1my145
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => cldf-peace-bereavement.org
+status: Net::HTTPOK 1.1 200 OK
+response-header: cache-control => private
+response-header: content-length => 56508
+response-header: content-type => text/html; charset=utf-8
+response-header: server => Microsoft-IIS/7.0
+response-header: x-aspnet-version => 2.0.50727
+response-header: set-cookie => SiteID=3; path=/; HttpOnly, ASP.NET_SessionId=4cgqk345zhs3jfrktp5vgfej; path=/; HttpOnly
+response-header: x-powered-by => ASP.NET
+response-header: date => Sat, 29 Sep 2012 08:36:18 GMT
+Read 1032 bytes (1032 total)
+Read 1368 bytes (2400 total)
+Read 1368 bytes (3768 total)
+Read 1368 bytes (5136 total)
+Read 1368 bytes (6504 total)
+Read 1368 bytes (7872 total)
+Read 1368 bytes (9240 total)
+Read 1368 bytes (10608 total)
+Read 1368 bytes (11976 total)
+Read 1368 bytes (13344 total)
+Read 1368 bytes (14712 total)
+Read 1368 bytes (16080 total)
+Read 1368 bytes (17448 total)
+Read 1368 bytes (18816 total)
+Read 1368 bytes (20184 total)
+Read 1368 bytes (21552 total)
+Read 1368 bytes (22920 total)
+Read 1368 bytes (24288 total)
+Read 1368 bytes (25656 total)
+Read 1368 bytes (27024 total)
+Read 5472 bytes (32496 total)
+Read 1368 bytes (33864 total)
+Read 1368 bytes (35232 total)
+Read 1368 bytes (36600 total)
+Read 1368 bytes (37968 total)
+Read 1368 bytes (39336 total)
+Read 1368 bytes (40704 total)
+Read 1368 bytes (42072 total)
+Read 1368 bytes (43440 total)
+Read 1368 bytes (44808 total)
+Read 1368 bytes (46176 total)
+Read 1368 bytes (47544 total)
+Read 1368 bytes (48912 total)
+Read 1368 bytes (50280 total)
+Read 1368 bytes (51648 total)
+Read 1368 bytes (53016 total)
+Read 1368 bytes (54384 total)
+Read 1368 bytes (55752 total)
+Read 756 bytes (56508 total)
+saved cookie: SiteID=3
+saved cookie: ASP.NET_SessionId=4cgqk345zhs3jfrktp5vgfej
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => cldf-peace-bereavement.org
+status: Net::HTTPOK 1.1 200 OK
+response-header: cache-control => private
+response-header: content-length => 56504
+response-header: content-type => text/html; charset=utf-8
+response-header: server => Microsoft-IIS/7.0
+response-header: x-aspnet-version => 2.0.50727
+response-header: set-cookie => SiteID=3; path=/; HttpOnly, ASP.NET_SessionId=l5lgsnfilcxchk55ceghdibo; path=/; HttpOnly
+response-header: x-powered-by => ASP.NET
+response-header: date => Sat, 29 Sep 2012 08:36:34 GMT
+Read 1032 bytes (1032 total)
+Read 1368 bytes (2400 total)
+Read 1368 bytes (3768 total)
+Read 1368 bytes (5136 total)
+Read 1368 bytes (6504 total)
+Read 1368 bytes (7872 total)
+Read 1368 bytes (9240 total)
+Read 1368 bytes (10608 total)
+Read 1368 bytes (11976 total)
+Read 1368 bytes (13344 total)
+Read 1368 bytes (14712 total)
+Read 1368 bytes (16080 total)
+Read 1368 bytes (17448 total)
+Read 1368 bytes (18816 total)
+Read 1368 bytes (20184 total)
+Read 1368 bytes (21552 total)
+Read 1368 bytes (22920 total)
+Read 1368 bytes (24288 total)
+Read 1368 bytes (25656 total)
+Read 1368 bytes (27024 total)
+Read 1368 bytes (28392 total)
+Read 1368 bytes (29760 total)
+Read 1368 bytes (31128 total)
+Read 1368 bytes (32496 total)
+Read 1368 bytes (33864 total)
+Read 1368 bytes (35232 total)
+Read 1368 bytes (36600 total)
+Read 1368 bytes (37968 total)
+Read 1368 bytes (39336 total)
+Read 1368 bytes (40704 total)
+Read 1368 bytes (42072 total)
+Read 1368 bytes (43440 total)
+Read 1368 bytes (44808 total)
+Read 1368 bytes (46176 total)
+Read 1368 bytes (47544 total)
+Read 1368 bytes (48912 total)
+Read 1368 bytes (50280 total)
+Read 1368 bytes (51648 total)
+Read 1368 bytes (53016 total)
+Read 1368 bytes (54384 total)
+Read 2120 bytes (56504 total)
+saved cookie: SiteID=3
+saved cookie: ASP.NET_SessionId=l5lgsnfilcxchk55ceghdibo
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => cldf-peace-bereavement.org
+status: Net::HTTPOK 1.1 200 OK
+response-header: cache-control => private
+response-header: content-length => 56508
+response-header: content-type => text/html; charset=utf-8
+response-header: server => Microsoft-IIS/7.0
+response-header: x-aspnet-version => 2.0.50727
+response-header: set-cookie => SiteID=3; path=/; HttpOnly, ASP.NET_SessionId=tzdt4f55wgc5ykuxgherzdyf; path=/; HttpOnly
+response-header: x-powered-by => ASP.NET
+response-header: date => Sat, 29 Sep 2012 08:54:38 GMT
+Read 1032 bytes (1032 total)
+Read 1368 bytes (2400 total)
+Read 1368 bytes (3768 total)
+Read 1368 bytes (5136 total)
+Read 1368 bytes (6504 total)
+Read 1368 bytes (7872 total)
+Read 1368 bytes (9240 total)
+Read 1368 bytes (10608 total)
+Read 1368 bytes (11976 total)
+Read 1368 bytes (13344 total)
+Read 1368 bytes (14712 total)
+Read 1368 bytes (16080 total)
+Read 1368 bytes (17448 total)
+Read 1368 bytes (18816 total)
+Read 1368 bytes (20184 total)
+Read 1368 bytes (21552 total)
+Read 1368 bytes (22920 total)
+Read 1368 bytes (24288 total)
+Read 1368 bytes (25656 total)
+Read 1368 bytes (27024 total)
+Read 1368 bytes (28392 total)
+Read 1368 bytes (29760 total)
+Read 1368 bytes (31128 total)
+Read 1368 bytes (32496 total)
+Read 1368 bytes (33864 total)
+Read 1368 bytes (35232 total)
+Read 1368 bytes (36600 total)
+Read 1368 bytes (37968 total)
+Read 1368 bytes (39336 total)
+Read 1368 bytes (40704 total)
+Read 1368 bytes (42072 total)
+Read 1368 bytes (43440 total)
+Read 1368 bytes (44808 total)
+Read 1368 bytes (46176 total)
+Read 1368 bytes (47544 total)
+Read 1368 bytes (48912 total)
+Read 1368 bytes (50280 total)
+Read 1368 bytes (51648 total)
+Read 1368 bytes (53016 total)
+Read 1368 bytes (54384 total)
+Read 1368 bytes (55752 total)
+Read 756 bytes (56508 total)
+saved cookie: SiteID=3
+saved cookie: ASP.NET_SessionId=tzdt4f55wgc5ykuxgherzdyf
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => nba.com
+status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+response-header: server => nginx
+response-header: date => Sat, 29 Sep 2012 08:54:55 GMT
+response-header: content-type => text/html; charset=iso-8859-1
+response-header: transfer-encoding => chunked
+response-header: connection => close
+response-header: location => http://www.nba.com/
+response-header: x-ua-profile => desktop
+response-header: x-ua-device => desktop
+Read 284 bytes (284 total)
+follow redirect to: http://www.nba.com/
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.nba.com
+status: Net::HTTPOK 1.0 200 OK
+response-header: server => nginx
+response-header: content-type => text/html
+response-header: set-cookie => CG=DO:--:--; path=/
+response-header: x-ua-profile => desktop
+response-header: vary => User-Agent, Accept-Encoding
+response-header: x-ua-device => desktop
+response-header: content-encoding => gzip
+response-header: cache-control => max-age=60
+response-header: date => Sat, 29 Sep 2012 08:54:56 GMT
+response-header: content-length => 18059
+response-header: connection => keep-alive
+Read 1077 bytes (1077 total)
+Read 2780 bytes (3857 total)
+Read 1390 bytes (5247 total)
+Read 1390 bytes (6637 total)
+Read 1390 bytes (8027 total)
+Read 1390 bytes (9417 total)
+Read 1390 bytes (10807 total)
+Read 2780 bytes (13587 total)
+Read 1390 bytes (14977 total)
+Read 1390 bytes (16367 total)
+Read 1390 bytes (17757 total)
+Read 302 bytes (18059 total)
+gzip response
+saved cookie: CG=DO:--:--
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => google.com
+status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+response-header: location => http://www.google.com/
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sat, 29 Sep 2012 08:55:09 GMT
+response-header: expires => Mon, 29 Oct 2012 08:55:09 GMT
+response-header: cache-control => public, max-age=2592000
+response-header: server => gws
+response-header: content-length => 219
+response-header: x-xss-protection => 1; mode=block
+response-header: x-frame-options => SAMEORIGIN
+Read 219 bytes (219 total)
+follow redirect to: http://www.google.com/
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.google.com
+status: Net::HTTPFound 1.1 302 Found
+response-header: location => http://www.google.com.do/
+response-header: cache-control => private
+response-header: content-type => text/html; charset=UTF-8
+response-header: set-cookie => PREF=ID=85dc099a3e248dec:FF=0:TM=1348908910:LM=1348908910:S=o8CZ-NhH8CuJCkZd; expires=Mon, 29-Sep-2014 08:55:10 GMT; path=/; domain=.google.com, NID=64=bmSIIMA9-ztp1nfbEFMc0D4Y65Nkug2FUBQP4kulPZUngIia-QcltqYy7PMszr3s6haBXixig8je7jUnNJYHDKk1ljWP8dOnllojeZ-OuM1w-LOT8Y5oOhaiq3Y5FceZ; expires=Sun, 31-Mar-2013 08:55:10 GMT; path=/; domain=.google.com; HttpOnly
+response-header: p3p => CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+response-header: date => Sat, 29 Sep 2012 08:55:10 GMT
+response-header: server => gws
+response-header: content-length => 222
+response-header: x-xss-protection => 1; mode=block
+response-header: x-frame-options => SAMEORIGIN
+Read 222 bytes (222 total)
+saved cookie: PREF=ID=85dc099a3e248dec:FF=0:TM=1348908910:LM=1348908910:S=o8CZ-NhH8CuJCkZd
+saved cookie: NID=64=bmSIIMA9-ztp1nfbEFMc0D4Y65Nkug2FUBQP4kulPZUngIia-QcltqYy7PMszr3s6haBXixig8je7jUnNJYHDKk1ljWP8dOnllojeZ-OuM1w-LOT8Y5oOhaiq3Y5FceZ
+follow redirect to: http://www.google.com.do/
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.google.com.do
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Sat, 29 Sep 2012 08:55:10 GMT
+response-header: expires => -1
+response-header: cache-control => private, max-age=0
+response-header: content-type => text/html; charset=UTF-8
+response-header: set-cookie => PREF=ID=f3a6ffd46e57ef93:FF=0:TM=1348908910:LM=1348908910:S=hpeOga1JzfQZpKuy; expires=Mon, 29-Sep-2014 08:55:10 GMT; path=/; domain=.google.com.do, NID=64=P0sbcs7QKfdavc9Yty1dX2ilBNzwV4kPGH-mqjQS2EgmtNZEVRdbhAlEqS-ylMEgh5a1_ijFB7h8_AbFEHyl8pV9oOqN-kLpvjmwtlcyUsflLh8sgAfJi91Q_vULCdtj; expires=Sun, 31-Mar-2013 08:55:10 GMT; path=/; domain=.google.com.do; HttpOnly
+response-header: p3p => CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+response-header: content-encoding => gzip
+response-header: server => gws
+response-header: content-length => 27696
+response-header: x-xss-protection => 1; mode=block
+response-header: x-frame-options => SAMEORIGIN
+Read 606 bytes (606 total)
+Read 1390 bytes (1996 total)
+Read 913 bytes (2909 total)
+Read 1390 bytes (4299 total)
+Read 1390 bytes (5689 total)
+Read 1316 bytes (7005 total)
+Read 1390 bytes (8395 total)
+Read 1390 bytes (9785 total)
+Read 1316 bytes (11101 total)
+Read 1390 bytes (12491 total)
+Read 1390 bytes (13881 total)
+Read 1390 bytes (15271 total)
+Read 1390 bytes (16661 total)
+Read 1390 bytes (18051 total)
+Read 1390 bytes (19441 total)
+Read 1390 bytes (20831 total)
+Read 1390 bytes (22221 total)
+Read 1390 bytes (23611 total)
+Read 1390 bytes (25001 total)
+Read 1390 bytes (26391 total)
+Read 1305 bytes (27696 total)
+gzip response
+saved cookie: PREF=ID=f3a6ffd46e57ef93:FF=0:TM=1348908910:LM=1348908910:S=hpeOga1JzfQZpKuy
+saved cookie: NID=64=P0sbcs7QKfdavc9Yty1dX2ilBNzwV4kPGH-mqjQS2EgmtNZEVRdbhAlEqS-ylMEgh5a1_ijFB7h8_AbFEHyl8pV9oOqN-kLpvjmwtlcyUsflLh8sgAfJi91Q_vULCdtj
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => google.com
+status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+response-header: location => http://www.google.com/
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sat, 29 Sep 2012 08:55:15 GMT
+response-header: expires => Mon, 29 Oct 2012 08:55:15 GMT
+response-header: cache-control => public, max-age=2592000
+response-header: server => gws
+response-header: content-length => 219
+response-header: x-xss-protection => 1; mode=block
+response-header: x-frame-options => SAMEORIGIN
+Read 219 bytes (219 total)
+follow redirect to: http://www.google.com/
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.google.com
+status: Net::HTTPFound 1.1 302 Found
+response-header: location => http://www.google.com.do/
+response-header: cache-control => private
+response-header: content-type => text/html; charset=UTF-8
+response-header: set-cookie => PREF=ID=d2be1b2a630bfaf7:FF=0:TM=1348908915:LM=1348908915:S=J2XT6qRFDbpj2Pok; expires=Mon, 29-Sep-2014 08:55:15 GMT; path=/; domain=.google.com, NID=64=mWIa3sDQvKaQlannA0ISb5axliF9cYnVx_sgnBs8WMX69FB7WcaUPQpmjr2OWxalvv0boRv6qHpdsbiykvi1_3VdmbIlmRh5efES6qWz7dqRZWVCxXT_zFTWul9h9WjU; expires=Sun, 31-Mar-2013 08:55:15 GMT; path=/; domain=.google.com; HttpOnly
+response-header: p3p => CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+response-header: date => Sat, 29 Sep 2012 08:55:15 GMT
+response-header: server => gws
+response-header: content-length => 222
+response-header: x-xss-protection => 1; mode=block
+response-header: x-frame-options => SAMEORIGIN
+Read 222 bytes (222 total)
+saved cookie: PREF=ID=d2be1b2a630bfaf7:FF=0:TM=1348908915:LM=1348908915:S=J2XT6qRFDbpj2Pok
+saved cookie: NID=64=mWIa3sDQvKaQlannA0ISb5axliF9cYnVx_sgnBs8WMX69FB7WcaUPQpmjr2OWxalvv0boRv6qHpdsbiykvi1_3VdmbIlmRh5efES6qWz7dqRZWVCxXT_zFTWul9h9WjU
+follow redirect to: http://www.google.com.do/
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.google.com.do
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Sat, 29 Sep 2012 08:55:15 GMT
+response-header: expires => -1
+response-header: cache-control => private, max-age=0
+response-header: content-type => text/html; charset=UTF-8
+response-header: set-cookie => PREF=ID=f906952df83a6aa7:FF=0:TM=1348908915:LM=1348908915:S=6UQJtSLGixLhZ9K-; expires=Mon, 29-Sep-2014 08:55:15 GMT; path=/; domain=.google.com.do, NID=64=Lg2Tj9ygLczKhu2xEm2j0neRvUoepZP37NAi0bnBUxlV9xPAgRmfD_orHfwkuOuVZNZnmU2JgOPubDv0DgdevcWG3fRIbpFKTOEbfgoB7ED8l-5btck6tYoqS6PJU-gN; expires=Sun, 31-Mar-2013 08:55:15 GMT; path=/; domain=.google.com.do; HttpOnly
+response-header: p3p => CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+response-header: content-encoding => gzip
+response-header: server => gws
+response-header: content-length => 27606
+response-header: x-xss-protection => 1; mode=block
+response-header: x-frame-options => SAMEORIGIN
+Read 606 bytes (606 total)
+Read 1390 bytes (1996 total)
+Read 947 bytes (2943 total)
+Read 1390 bytes (4333 total)
+Read 1390 bytes (5723 total)
+Read 1316 bytes (7039 total)
+Read 1390 bytes (8429 total)
+Read 1390 bytes (9819 total)
+Read 1316 bytes (11135 total)
+Read 1390 bytes (12525 total)
+Read 1390 bytes (13915 total)
+Read 1390 bytes (15305 total)
+Read 1390 bytes (16695 total)
+Read 1390 bytes (18085 total)
+Read 1390 bytes (19475 total)
+Read 1390 bytes (20865 total)
+Read 1390 bytes (22255 total)
+Read 1390 bytes (23645 total)
+Read 1390 bytes (25035 total)
+Read 1390 bytes (26425 total)
+Read 1181 bytes (27606 total)
+gzip response
+saved cookie: PREF=ID=f906952df83a6aa7:FF=0:TM=1348908915:LM=1348908915:S=6UQJtSLGixLhZ9K-
+saved cookie: NID=64=Lg2Tj9ygLczKhu2xEm2j0neRvUoepZP37NAi0bnBUxlV9xPAgRmfD_orHfwkuOuVZNZnmU2JgOPubDv0DgdevcWG3fRIbpFKTOEbfgoB7ED8l-5btck6tYoqS6PJU-gN
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.google.com
+status: Net::HTTPFound 1.1 302 Found
+response-header: location => http://www.google.com.do/
+response-header: cache-control => private
+response-header: content-type => text/html; charset=UTF-8
+response-header: set-cookie => PREF=ID=ff4809e9d2acab09:FF=0:TM=1348908933:LM=1348908933:S=3Ti-O3Bvmo-2vemK; expires=Mon, 29-Sep-2014 08:55:33 GMT; path=/; domain=.google.com, NID=64=ZtNxnU_kpy_owaMTfhjVWYN0fgL4DSl80fDRipipfc044sblkRDngjXezh7d0CAKcNEgDdlrZDtnxK2kZ9BzSCgzshZ8ZGFOvhbMcS4iZB_Ry9ZctE5g3Ge2wr0bPcWV; expires=Sun, 31-Mar-2013 08:55:33 GMT; path=/; domain=.google.com; HttpOnly
+response-header: p3p => CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+response-header: date => Sat, 29 Sep 2012 08:55:33 GMT
+response-header: server => gws
+response-header: content-length => 222
+response-header: x-xss-protection => 1; mode=block
+response-header: x-frame-options => SAMEORIGIN
+Read 222 bytes (222 total)
+saved cookie: PREF=ID=ff4809e9d2acab09:FF=0:TM=1348908933:LM=1348908933:S=3Ti-O3Bvmo-2vemK
+saved cookie: NID=64=ZtNxnU_kpy_owaMTfhjVWYN0fgL4DSl80fDRipipfc044sblkRDngjXezh7d0CAKcNEgDdlrZDtnxK2kZ9BzSCgzshZ8ZGFOvhbMcS4iZB_Ry9ZctE5g3Ge2wr0bPcWV
+follow redirect to: http://www.google.com.do/
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.google.com.do
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Sat, 29 Sep 2012 08:55:33 GMT
+response-header: expires => -1
+response-header: cache-control => private, max-age=0
+response-header: content-type => text/html; charset=UTF-8
+response-header: set-cookie => PREF=ID=03989614921b6d6a:FF=0:TM=1348908933:LM=1348908933:S=BfQzw4ECrlI2eJHs; expires=Mon, 29-Sep-2014 08:55:33 GMT; path=/; domain=.google.com.do, NID=64=nnMPGChK4NFNbFeFYBXyPms9TYbnW1Cl1NeOTlaWnM-SwGcR9EvbP8vLwTBgdFl0WKvt9nJ8vx183pHjmXOAthQqn7g_hgoihsyyOcwwgA1-UtPvIsqOMCJgzBwQmIuN; expires=Sun, 31-Mar-2013 08:55:33 GMT; path=/; domain=.google.com.do; HttpOnly
+response-header: p3p => CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+response-header: content-encoding => gzip
+response-header: server => gws
+response-header: content-length => 27691
+response-header: x-xss-protection => 1; mode=block
+response-header: x-frame-options => SAMEORIGIN
+Read 606 bytes (606 total)
+Read 1390 bytes (1996 total)
+Read 945 bytes (2941 total)
+Read 1390 bytes (4331 total)
+Read 1390 bytes (5721 total)
+Read 1316 bytes (7037 total)
+Read 1390 bytes (8427 total)
+Read 1390 bytes (9817 total)
+Read 1316 bytes (11133 total)
+Read 1390 bytes (12523 total)
+Read 1390 bytes (13913 total)
+Read 1390 bytes (15303 total)
+Read 1390 bytes (16693 total)
+Read 1390 bytes (18083 total)
+Read 1390 bytes (19473 total)
+Read 1390 bytes (20863 total)
+Read 1390 bytes (22253 total)
+Read 1390 bytes (23643 total)
+Read 1390 bytes (25033 total)
+Read 1390 bytes (26423 total)
+Read 1268 bytes (27691 total)
+gzip response
+saved cookie: PREF=ID=03989614921b6d6a:FF=0:TM=1348908933:LM=1348908933:S=BfQzw4ECrlI2eJHs
+saved cookie: NID=64=nnMPGChK4NFNbFeFYBXyPms9TYbnW1Cl1NeOTlaWnM-SwGcR9EvbP8vLwTBgdFl0WKvt9nJ8vx183pHjmXOAthQqn7g_hgoihsyyOcwwgA1-UtPvIsqOMCJgzBwQmIuN
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.google.com
+status: Net::HTTPFound 1.1 302 Found
+response-header: location => http://www.google.com.do/
+response-header: cache-control => private
+response-header: content-type => text/html; charset=UTF-8
+response-header: set-cookie => PREF=ID=3a3efa54126a61a2:FF=0:TM=1348908940:LM=1348908940:S=xPwgkT8B7WdRbVti; expires=Mon, 29-Sep-2014 08:55:40 GMT; path=/; domain=.google.com, NID=64=aeaM6lfD8zT187es811blsN7t6livxx28iqRfzNBN3vI8nxHRIYbOdyWv-n_tNjBkQCbNlCgMiYcLucgr4N5glrL0pdFiD5k28WL6YQjUFfiDZA6O_kqIk_SKmV6CGSo; expires=Sun, 31-Mar-2013 08:55:40 GMT; path=/; domain=.google.com; HttpOnly
+response-header: p3p => CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+response-header: date => Sat, 29 Sep 2012 08:55:40 GMT
+response-header: server => gws
+response-header: content-length => 222
+response-header: x-xss-protection => 1; mode=block
+response-header: x-frame-options => SAMEORIGIN
+Read 222 bytes (222 total)
+saved cookie: PREF=ID=3a3efa54126a61a2:FF=0:TM=1348908940:LM=1348908940:S=xPwgkT8B7WdRbVti
+saved cookie: NID=64=aeaM6lfD8zT187es811blsN7t6livxx28iqRfzNBN3vI8nxHRIYbOdyWv-n_tNjBkQCbNlCgMiYcLucgr4N5glrL0pdFiD5k28WL6YQjUFfiDZA6O_kqIk_SKmV6CGSo
+follow redirect to: http://www.google.com.do/
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.google.com.do
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Sat, 29 Sep 2012 08:55:40 GMT
+response-header: expires => -1
+response-header: cache-control => private, max-age=0
+response-header: content-type => text/html; charset=UTF-8
+response-header: set-cookie => PREF=ID=f49711e8bbfa78fa:FF=0:TM=1348908940:LM=1348908940:S=PsDrgN7jxrci-AoV; expires=Mon, 29-Sep-2014 08:55:40 GMT; path=/; domain=.google.com.do, NID=64=mUraPdQeiuX7S_Op0QkKEygTsAQbyNOE7LC7px2sugskX_pQnUpdvtUaDaI0Rg0jUicpCbumdo6d_0keBgBt-2hBWKlZGfKkIIU85_uh4tiWSmQj9m4uxC37jj_n8UiB; expires=Sun, 31-Mar-2013 08:55:40 GMT; path=/; domain=.google.com.do; HttpOnly
+response-header: p3p => CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+response-header: content-encoding => gzip
+response-header: server => gws
+response-header: content-length => 27637
+response-header: x-xss-protection => 1; mode=block
+response-header: x-frame-options => SAMEORIGIN
+Read 606 bytes (606 total)
+Read 1390 bytes (1996 total)
+Read 897 bytes (2893 total)
+Read 1390 bytes (4283 total)
+Read 1390 bytes (5673 total)
+Read 1316 bytes (6989 total)
+Read 1390 bytes (8379 total)
+Read 1390 bytes (9769 total)
+Read 1316 bytes (11085 total)
+Read 1390 bytes (12475 total)
+Read 1390 bytes (13865 total)
+Read 1390 bytes (15255 total)
+Read 1390 bytes (16645 total)
+Read 1390 bytes (18035 total)
+Read 1390 bytes (19425 total)
+Read 1390 bytes (20815 total)
+Read 1390 bytes (22205 total)
+Read 1390 bytes (23595 total)
+Read 1390 bytes (24985 total)
+Read 1390 bytes (26375 total)
+Read 1262 bytes (27637 total)
+gzip response
+saved cookie: PREF=ID=f49711e8bbfa78fa:FF=0:TM=1348908940:LM=1348908940:S=PsDrgN7jxrci-AoV
+saved cookie: NID=64=mUraPdQeiuX7S_Op0QkKEygTsAQbyNOE7LC7px2sugskX_pQnUpdvtUaDaI0Rg0jUicpCbumdo6d_0keBgBt-2hBWKlZGfKkIIU85_uh4tiWSmQj9m4uxC37jj_n8UiB
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.nba.com
+status: Net::HTTPOK 1.0 200 OK
+response-header: server => nginx
+response-header: content-type => text/html
+response-header: x-ua-profile => desktop
+response-header: vary => User-Agent, Accept-Encoding
+response-header: x-ua-device => desktop
+response-header: content-encoding => gzip
+response-header: cache-control => max-age=60
+response-header: date => Sat, 29 Sep 2012 08:55:58 GMT
+response-header: content-length => 18059
+response-header: connection => keep-alive
+Read 1110 bytes (1110 total)
+Read 2780 bytes (3890 total)
+Read 1390 bytes (5280 total)
+Read 1390 bytes (6670 total)
+Read 1390 bytes (8060 total)
+Read 1390 bytes (9450 total)
+Read 1390 bytes (10840 total)
+Read 1390 bytes (12230 total)
+Read 1390 bytes (13620 total)
+Read 1390 bytes (15010 total)
+Read 1390 bytes (16400 total)
+Read 1390 bytes (17790 total)
+Read 269 bytes (18059 total)
+gzip response
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => cldf-peace-bereavement.org
+status: Net::HTTPOK 1.1 200 OK
+response-header: cache-control => private
+response-header: content-length => 56508
+response-header: content-type => text/html; charset=utf-8
+response-header: server => Microsoft-IIS/7.0
+response-header: x-aspnet-version => 2.0.50727
+response-header: set-cookie => SiteID=3; path=/; HttpOnly, ASP.NET_SessionId=hymfx0jiavmpqh45aomowzb4; path=/; HttpOnly
+response-header: x-powered-by => ASP.NET
+response-header: date => Sat, 29 Sep 2012 08:56:25 GMT
+Read 1032 bytes (1032 total)
+Read 1368 bytes (2400 total)
+Read 1368 bytes (3768 total)
+Read 1368 bytes (5136 total)
+Read 1368 bytes (6504 total)
+Read 1368 bytes (7872 total)
+Read 1368 bytes (9240 total)
+Read 1368 bytes (10608 total)
+Read 1368 bytes (11976 total)
+Read 1368 bytes (13344 total)
+Read 1368 bytes (14712 total)
+Read 1368 bytes (16080 total)
+Read 1368 bytes (17448 total)
+Read 1368 bytes (18816 total)
+Read 1368 bytes (20184 total)
+Read 1368 bytes (21552 total)
+Read 1368 bytes (22920 total)
+Read 1368 bytes (24288 total)
+Read 1368 bytes (25656 total)
+Read 1368 bytes (27024 total)
+Read 1368 bytes (28392 total)
+Read 1368 bytes (29760 total)
+Read 1368 bytes (31128 total)
+Read 1368 bytes (32496 total)
+Read 1368 bytes (33864 total)
+Read 1368 bytes (35232 total)
+Read 1368 bytes (36600 total)
+Read 1368 bytes (37968 total)
+Read 1368 bytes (39336 total)
+Read 1368 bytes (40704 total)
+Read 1368 bytes (42072 total)
+Read 1368 bytes (43440 total)
+Read 1368 bytes (44808 total)
+Read 1368 bytes (46176 total)
+Read 1368 bytes (47544 total)
+Read 1368 bytes (48912 total)
+Read 1368 bytes (50280 total)
+Read 1368 bytes (51648 total)
+Read 1368 bytes (53016 total)
+Read 1368 bytes (54384 total)
+Read 1368 bytes (55752 total)
+Read 756 bytes (56508 total)
+saved cookie: SiteID=3
+saved cookie: ASP.NET_SessionId=hymfx0jiavmpqh45aomowzb4
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => nba.com
+status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+response-header: server => nginx
+response-header: date => Sat, 29 Sep 2012 08:56:31 GMT
+response-header: content-type => text/html; charset=iso-8859-1
+response-header: transfer-encoding => chunked
+response-header: connection => close
+response-header: location => http://www.nba.com/
+response-header: x-ua-profile => desktop
+response-header: x-ua-device => desktop
+Read 284 bytes (284 total)
+follow redirect to: http://www.nba.com/
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.nba.com
+status: Net::HTTPOK 1.0 200 OK
+response-header: server => nginx
+response-header: content-type => text/html
+response-header: x-ua-profile => desktop
+response-header: vary => User-Agent, Accept-Encoding
+response-header: x-ua-device => desktop
+response-header: content-encoding => gzip
+response-header: cache-control => max-age=26
+response-header: date => Sat, 29 Sep 2012 08:56:32 GMT
+response-header: content-length => 18059
+response-header: connection => keep-alive
+Read 1110 bytes (1110 total)
+Read 1390 bytes (2500 total)
+Read 1390 bytes (3890 total)
+Read 1390 bytes (5280 total)
+Read 1390 bytes (6670 total)
+Read 1390 bytes (8060 total)
+Read 1390 bytes (9450 total)
+Read 1390 bytes (10840 total)
+Read 1390 bytes (12230 total)
+Read 1390 bytes (13620 total)
+Read 1390 bytes (15010 total)
+Read 1390 bytes (16400 total)
+Read 1390 bytes (17790 total)
+Read 269 bytes (18059 total)
+gzip response
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => nba.com
+status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+response-header: server => nginx
+response-header: date => Sat, 29 Sep 2012 08:56:37 GMT
+response-header: content-type => text/html; charset=iso-8859-1
+response-header: transfer-encoding => chunked
+response-header: connection => close
+response-header: location => http://www.nba.com/
+response-header: x-ua-profile => desktop
+response-header: x-ua-device => desktop
+Read 284 bytes (284 total)
+follow redirect to: http://www.nba.com/
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.nba.com
+status: Net::HTTPOK 1.0 200 OK
+response-header: server => nginx
+response-header: content-type => text/html
+response-header: x-ua-profile => desktop
+response-header: vary => User-Agent, Accept-Encoding
+response-header: x-ua-device => desktop
+response-header: content-encoding => gzip
+response-header: cache-control => max-age=21
+response-header: date => Sat, 29 Sep 2012 08:56:37 GMT
+response-header: content-length => 18059
+response-header: connection => keep-alive
+Read 1110 bytes (1110 total)
+Read 1390 bytes (2500 total)
+Read 1390 bytes (3890 total)
+Read 1390 bytes (5280 total)
+Read 1390 bytes (6670 total)
+Read 1390 bytes (8060 total)
+Read 1390 bytes (9450 total)
+Read 1390 bytes (10840 total)
+Read 5560 bytes (16400 total)
+Read 1390 bytes (17790 total)
+Read 269 bytes (18059 total)
+gzip response
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => nba.com
+status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+response-header: server => nginx
+response-header: date => Sat, 29 Sep 2012 09:03:57 GMT
+response-header: content-type => text/html; charset=iso-8859-1
+response-header: transfer-encoding => chunked
+response-header: connection => close
+response-header: location => http://www.nba.com/
+response-header: x-ua-profile => desktop
+response-header: x-ua-device => desktop
+Read 284 bytes (284 total)
+follow redirect to: http://www.nba.com/
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.nba.com
+status: Net::HTTPOK 1.0 200 OK
+response-header: server => nginx
+response-header: content-type => text/html
+response-header: x-ua-profile => desktop
+response-header: vary => User-Agent, Accept-Encoding
+response-header: x-ua-device => desktop
+response-header: content-encoding => gzip
+response-header: cache-control => max-age=13
+response-header: date => Sat, 29 Sep 2012 09:03:57 GMT
+response-header: content-length => 18060
+response-header: connection => keep-alive
+Read 1110 bytes (1110 total)
+Read 1390 bytes (2500 total)
+Read 1390 bytes (3890 total)
+Read 1390 bytes (5280 total)
+Read 1390 bytes (6670 total)
+Read 1390 bytes (8060 total)
+Read 1390 bytes (9450 total)
+Read 1390 bytes (10840 total)
+Read 1390 bytes (12230 total)
+Read 1390 bytes (13620 total)
+Read 1390 bytes (15010 total)
+Read 1390 bytes (16400 total)
+Read 1390 bytes (17790 total)
+Read 270 bytes (18060 total)
+gzip response
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.google.com
+status: Net::HTTPFound 1.1 302 Found
+response-header: location => http://www.google.com.do/
+response-header: cache-control => private
+response-header: content-type => text/html; charset=UTF-8
+response-header: set-cookie => PREF=ID=766e1466338c2d6f:FF=0:TM=1348909492:LM=1348909492:S=uD-jwBgaLr4bGkiA; expires=Mon, 29-Sep-2014 09:04:52 GMT; path=/; domain=.google.com, NID=64=bn9QVt2OELLhJhH8dkNStrepSTorchpiAEET79EYwtpTAZaAL6qkcJrhHxssKrWOa2T8V-eolnZ-pkZLFG0ixo0JcxFVrXrdssX4w-_uEBDCy2cgpSkUzCafDVdQGrNE; expires=Sun, 31-Mar-2013 09:04:52 GMT; path=/; domain=.google.com; HttpOnly
+response-header: p3p => CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+response-header: date => Sat, 29 Sep 2012 09:04:52 GMT
+response-header: server => gws
+response-header: content-length => 222
+response-header: x-xss-protection => 1; mode=block
+response-header: x-frame-options => SAMEORIGIN
+Read 222 bytes (222 total)
+saved cookie: PREF=ID=766e1466338c2d6f:FF=0:TM=1348909492:LM=1348909492:S=uD-jwBgaLr4bGkiA
+saved cookie: NID=64=bn9QVt2OELLhJhH8dkNStrepSTorchpiAEET79EYwtpTAZaAL6qkcJrhHxssKrWOa2T8V-eolnZ-pkZLFG0ixo0JcxFVrXrdssX4w-_uEBDCy2cgpSkUzCafDVdQGrNE
+follow redirect to: http://www.google.com.do/
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.google.com.do
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Sat, 29 Sep 2012 09:04:52 GMT
+response-header: expires => -1
+response-header: cache-control => private, max-age=0
+response-header: content-type => text/html; charset=UTF-8
+response-header: set-cookie => PREF=ID=d24c4159a03bfda8:FF=0:TM=1348909492:LM=1348909493:S=eCg4_nBnRsTyrTjj; expires=Mon, 29-Sep-2014 09:04:53 GMT; path=/; domain=.google.com.do, NID=64=iBB9ZU-hzzy2dQ2R_Pbpve8R4FiF-_M89Fon5qTPOR-6kVI5tX_KhrM6W6MY87nZ64cSOuu--PbnUSv3zjSBfpTOLt5q-kTLJRjqfE8lU8lFv1TWZi8N9WMUWhp_H4Z6; expires=Sun, 31-Mar-2013 09:04:53 GMT; path=/; domain=.google.com.do; HttpOnly
+response-header: p3p => CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+response-header: content-encoding => gzip
+response-header: server => gws
+response-header: content-length => 27614
+response-header: x-xss-protection => 1; mode=block
+response-header: x-frame-options => SAMEORIGIN
+Read 606 bytes (606 total)
+Read 1390 bytes (1996 total)
+Read 933 bytes (2929 total)
+Read 1390 bytes (4319 total)
+Read 1390 bytes (5709 total)
+Read 1316 bytes (7025 total)
+Read 1390 bytes (8415 total)
+Read 1390 bytes (9805 total)
+Read 1316 bytes (11121 total)
+Read 1390 bytes (12511 total)
+Read 1390 bytes (13901 total)
+Read 1390 bytes (15291 total)
+Read 1390 bytes (16681 total)
+Read 1390 bytes (18071 total)
+Read 1390 bytes (19461 total)
+Read 1390 bytes (20851 total)
+Read 1390 bytes (22241 total)
+Read 1390 bytes (23631 total)
+Read 1390 bytes (25021 total)
+Read 1390 bytes (26411 total)
+Read 1203 bytes (27614 total)
+gzip response
+saved cookie: PREF=ID=d24c4159a03bfda8:FF=0:TM=1348909492:LM=1348909493:S=eCg4_nBnRsTyrTjj
+saved cookie: NID=64=iBB9ZU-hzzy2dQ2R_Pbpve8R4FiF-_M89Fon5qTPOR-6kVI5tX_KhrM6W6MY87nZ64cSOuu--PbnUSv3zjSBfpTOLt5q-kTLJRjqfE8lU8lFv1TWZi8N9WMUWhp_H4Z6
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.google.com
+status: Net::HTTPFound 1.1 302 Found
+response-header: location => http://www.google.com.do/
+response-header: cache-control => private
+response-header: content-type => text/html; charset=UTF-8
+response-header: set-cookie => PREF=ID=86f671affe00c32a:FF=0:TM=1348909550:LM=1348909550:S=vt6_pKWpssYnRGgj; expires=Mon, 29-Sep-2014 09:05:50 GMT; path=/; domain=.google.com, NID=64=Pvo-4ss7jC8KthEtgOJYfSEAnjnDDULeKBVkquVsKlIXFFfAmRyuZRkKFHmcp_5x69tD_AxlYBb4WpvVJwklCuUXOGmRvJRZoY31mXKgO0byWc210UL4D_VRxui14nGj; expires=Sun, 31-Mar-2013 09:05:50 GMT; path=/; domain=.google.com; HttpOnly
+response-header: p3p => CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+response-header: date => Sat, 29 Sep 2012 09:05:50 GMT
+response-header: server => gws
+response-header: content-length => 222
+response-header: x-xss-protection => 1; mode=block
+response-header: x-frame-options => SAMEORIGIN
+Read 222 bytes (222 total)
+saved cookie: PREF=ID=86f671affe00c32a:FF=0:TM=1348909550:LM=1348909550:S=vt6_pKWpssYnRGgj
+saved cookie: NID=64=Pvo-4ss7jC8KthEtgOJYfSEAnjnDDULeKBVkquVsKlIXFFfAmRyuZRkKFHmcp_5x69tD_AxlYBb4WpvVJwklCuUXOGmRvJRZoY31mXKgO0byWc210UL4D_VRxui14nGj
+follow redirect to: http://www.google.com.do/
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.google.com.do
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Sat, 29 Sep 2012 09:05:50 GMT
+response-header: expires => -1
+response-header: cache-control => private, max-age=0
+response-header: content-type => text/html; charset=UTF-8
+response-header: set-cookie => PREF=ID=3070336d24b747c1:FF=0:TM=1348909550:LM=1348909550:S=TbFYlfYQmdp1zxkg; expires=Mon, 29-Sep-2014 09:05:50 GMT; path=/; domain=.google.com.do, NID=64=cqHra1jcgq5Ky3HvLQJQ8QcYr0EIKh_jKl1y4u5WJtZMBHb19nsRbIzgk6lP3BvIwI07WpBJhM9GlgjMd49gvQX1k_61nCaIqWijS_mKY7N-gTfUfaOdu-aakIkCYJBL; expires=Sun, 31-Mar-2013 09:05:50 GMT; path=/; domain=.google.com.do; HttpOnly
+response-header: p3p => CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+response-header: content-encoding => gzip
+response-header: server => gws
+response-header: content-length => 27692
+response-header: x-xss-protection => 1; mode=block
+response-header: x-frame-options => SAMEORIGIN
+Read 606 bytes (606 total)
+Read 1390 bytes (1996 total)
+Read 932 bytes (2928 total)
+Read 1390 bytes (4318 total)
+Read 1390 bytes (5708 total)
+Read 1316 bytes (7024 total)
+Read 1390 bytes (8414 total)
+Read 1390 bytes (9804 total)
+Read 1316 bytes (11120 total)
+Read 1390 bytes (12510 total)
+Read 1390 bytes (13900 total)
+Read 1390 bytes (15290 total)
+Read 1390 bytes (16680 total)
+Read 1390 bytes (18070 total)
+Read 1390 bytes (19460 total)
+Read 1390 bytes (20850 total)
+Read 1390 bytes (22240 total)
+Read 1390 bytes (23630 total)
+Read 1390 bytes (25020 total)
+Read 1390 bytes (26410 total)
+Read 1282 bytes (27692 total)
+gzip response
+saved cookie: PREF=ID=3070336d24b747c1:FF=0:TM=1348909550:LM=1348909550:S=TbFYlfYQmdp1zxkg
+saved cookie: NID=64=cqHra1jcgq5Ky3HvLQJQ8QcYr0EIKh_jKl1y4u5WJtZMBHb19nsRbIzgk6lP3BvIwI07WpBJhM9GlgjMd49gvQX1k_61nCaIqWijS_mKY7N-gTfUfaOdu-aakIkCYJBL
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.google.com
+status: Net::HTTPFound 1.1 302 Found
+response-header: location => http://www.google.com.do/
+response-header: cache-control => private
+response-header: content-type => text/html; charset=UTF-8
+response-header: set-cookie => PREF=ID=55cf0bab0335e0d0:FF=0:TM=1348909586:LM=1348909586:S=cte_iV4BqkfADbj8; expires=Mon, 29-Sep-2014 09:06:26 GMT; path=/; domain=.google.com, NID=64=E5xND4icZLThBUoclouR5mc1EXl1bQl407a6FBVLVyBiFZcG7SqicQZ6HwGU2SIfVae4q09uEfF8JHGJXE7SpJQuSPHILnnHSarzmj2djtjvV_yTVjv-LzBD8elWK5Sg; expires=Sun, 31-Mar-2013 09:06:26 GMT; path=/; domain=.google.com; HttpOnly
+response-header: p3p => CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+response-header: date => Sat, 29 Sep 2012 09:06:26 GMT
+response-header: server => gws
+response-header: content-length => 222
+response-header: x-xss-protection => 1; mode=block
+response-header: x-frame-options => SAMEORIGIN
+Read 222 bytes (222 total)
+saved cookie: PREF=ID=55cf0bab0335e0d0:FF=0:TM=1348909586:LM=1348909586:S=cte_iV4BqkfADbj8
+saved cookie: NID=64=E5xND4icZLThBUoclouR5mc1EXl1bQl407a6FBVLVyBiFZcG7SqicQZ6HwGU2SIfVae4q09uEfF8JHGJXE7SpJQuSPHILnnHSarzmj2djtjvV_yTVjv-LzBD8elWK5Sg
+follow redirect to: http://www.google.com.do/
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.google.com.do
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Sat, 29 Sep 2012 09:06:26 GMT
+response-header: expires => -1
+response-header: cache-control => private, max-age=0
+response-header: content-type => text/html; charset=UTF-8
+response-header: set-cookie => PREF=ID=7d1d18b47dd66416:FF=0:TM=1348909586:LM=1348909586:S=gnJ87VJkH8dbdIbU; expires=Mon, 29-Sep-2014 09:06:26 GMT; path=/; domain=.google.com.do, NID=64=OBsO2JMDCoVk18A5U_o5KaAuRVj_FuYc4oRO3X4QqDlHw3cR1n94YvFXUCf0jmmG7mOBJVfKyBxePdXNAbdKPFNTj_9cl4ulN53GAYBdhq0YSoQyQudw2GtJJVCsjEEJ; expires=Sun, 31-Mar-2013 09:06:26 GMT; path=/; domain=.google.com.do; HttpOnly
+response-header: p3p => CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+response-header: content-encoding => gzip
+response-header: server => gws
+response-header: content-length => 27608
+response-header: x-xss-protection => 1; mode=block
+response-header: x-frame-options => SAMEORIGIN
+Read 606 bytes (606 total)
+Read 1390 bytes (1996 total)
+Read 945 bytes (2941 total)
+Read 1390 bytes (4331 total)
+Read 1390 bytes (5721 total)
+Read 1316 bytes (7037 total)
+Read 1390 bytes (8427 total)
+Read 1390 bytes (9817 total)
+Read 1316 bytes (11133 total)
+Read 1390 bytes (12523 total)
+Read 1390 bytes (13913 total)
+Read 1390 bytes (15303 total)
+Read 1390 bytes (16693 total)
+Read 1390 bytes (18083 total)
+Read 1390 bytes (19473 total)
+Read 1390 bytes (20863 total)
+Read 1390 bytes (22253 total)
+Read 1390 bytes (23643 total)
+Read 1390 bytes (25033 total)
+Read 1390 bytes (26423 total)
+Read 1185 bytes (27608 total)
+gzip response
+saved cookie: PREF=ID=7d1d18b47dd66416:FF=0:TM=1348909586:LM=1348909586:S=gnJ87VJkH8dbdIbU
+saved cookie: NID=64=OBsO2JMDCoVk18A5U_o5KaAuRVj_FuYc4oRO3X4QqDlHw3cR1n94YvFXUCf0jmmG7mOBJVfKyBxePdXNAbdKPFNTj_9cl4ulN53GAYBdhq0YSoQyQudw2GtJJVCsjEEJ
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => cldf-peace-bereavement.org
+status: Net::HTTPOK 1.1 200 OK
+response-header: cache-control => private
+response-header: content-length => 56508
+response-header: content-type => text/html; charset=utf-8
+response-header: server => Microsoft-IIS/7.0
+response-header: x-aspnet-version => 2.0.50727
+response-header: set-cookie => SiteID=3; path=/; HttpOnly, ASP.NET_SessionId=leoabe55ayub143cdar43luc; path=/; HttpOnly
+response-header: x-powered-by => ASP.NET
+response-header: date => Sat, 29 Sep 2012 09:07:38 GMT
+Read 1032 bytes (1032 total)
+Read 1368 bytes (2400 total)
+Read 1368 bytes (3768 total)
+Read 1368 bytes (5136 total)
+Read 1368 bytes (6504 total)
+Read 1368 bytes (7872 total)
+Read 1368 bytes (9240 total)
+Read 1368 bytes (10608 total)
+Read 5472 bytes (16080 total)
+Read 1368 bytes (17448 total)
+Read 1368 bytes (18816 total)
+Read 1368 bytes (20184 total)
+Read 1368 bytes (21552 total)
+Read 1368 bytes (22920 total)
+Read 1368 bytes (24288 total)
+Read 1368 bytes (25656 total)
+Read 1368 bytes (27024 total)
+Read 1368 bytes (28392 total)
+Read 1368 bytes (29760 total)
+Read 1368 bytes (31128 total)
+Read 1368 bytes (32496 total)
+Read 1368 bytes (33864 total)
+Read 1368 bytes (35232 total)
+Read 1368 bytes (36600 total)
+Read 1368 bytes (37968 total)
+Read 1368 bytes (39336 total)
+Read 1368 bytes (40704 total)
+Read 1368 bytes (42072 total)
+Read 1368 bytes (43440 total)
+Read 1368 bytes (44808 total)
+Read 1368 bytes (46176 total)
+Read 1368 bytes (47544 total)
+Read 1368 bytes (48912 total)
+Read 1368 bytes (50280 total)
+Read 1368 bytes (51648 total)
+Read 1368 bytes (53016 total)
+Read 1368 bytes (54384 total)
+Read 1368 bytes (55752 total)
+Read 756 bytes (56508 total)
+saved cookie: SiteID=3
+saved cookie: ASP.NET_SessionId=leoabe55ayub143cdar43luc
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => cldf-peace-bereavement.org
+status: Net::HTTPOK 1.1 200 OK
+response-header: cache-control => private
+response-header: content-length => 56508
+response-header: content-type => text/html; charset=utf-8
+response-header: server => Microsoft-IIS/7.0
+response-header: x-aspnet-version => 2.0.50727
+response-header: set-cookie => SiteID=3; path=/; HttpOnly, ASP.NET_SessionId=jedjui452tvizkrw4d5sqraw; path=/; HttpOnly
+response-header: x-powered-by => ASP.NET
+response-header: date => Sat, 29 Sep 2012 09:10:40 GMT
+Read 2400 bytes (2400 total)
+Read 1368 bytes (3768 total)
+Read 1368 bytes (5136 total)
+Read 1368 bytes (6504 total)
+Read 1368 bytes (7872 total)
+Read 1368 bytes (9240 total)
+Read 1368 bytes (10608 total)
+Read 1368 bytes (11976 total)
+Read 1368 bytes (13344 total)
+Read 1368 bytes (14712 total)
+Read 1368 bytes (16080 total)
+Read 1368 bytes (17448 total)
+Read 1368 bytes (18816 total)
+Read 1368 bytes (20184 total)
+Read 1368 bytes (21552 total)
+Read 1368 bytes (22920 total)
+Read 1368 bytes (24288 total)
+Read 1368 bytes (25656 total)
+Read 1368 bytes (27024 total)
+Read 1368 bytes (28392 total)
+Read 1368 bytes (29760 total)
+Read 1368 bytes (31128 total)
+Read 1368 bytes (32496 total)
+Read 1368 bytes (33864 total)
+Read 1368 bytes (35232 total)
+Read 1368 bytes (36600 total)
+Read 1368 bytes (37968 total)
+Read 1368 bytes (39336 total)
+Read 1368 bytes (40704 total)
+Read 1368 bytes (42072 total)
+Read 1368 bytes (43440 total)
+Read 1368 bytes (44808 total)
+Read 1368 bytes (46176 total)
+Read 1368 bytes (47544 total)
+Read 1368 bytes (48912 total)
+Read 1368 bytes (50280 total)
+Read 1368 bytes (51648 total)
+Read 1368 bytes (53016 total)
+Read 1368 bytes (54384 total)
+Read 1368 bytes (55752 total)
+Read 756 bytes (56508 total)
+saved cookie: SiteID=3
+saved cookie: ASP.NET_SessionId=jedjui452tvizkrw4d5sqraw
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => cldf-peace-bereavement.org
+status: Net::HTTPOK 1.1 200 OK
+response-header: cache-control => private
+response-header: content-length => 56504
+response-header: content-type => text/html; charset=utf-8
+response-header: server => Microsoft-IIS/7.0
+response-header: x-aspnet-version => 2.0.50727
+response-header: set-cookie => SiteID=3; path=/; HttpOnly, ASP.NET_SessionId=vhh35oyekzphof55xlkhkq45; path=/; HttpOnly
+response-header: x-powered-by => ASP.NET
+response-header: date => Sat, 29 Sep 2012 09:11:03 GMT
+Read 1032 bytes (1032 total)
+Read 1368 bytes (2400 total)
+Read 1368 bytes (3768 total)
+Read 2736 bytes (6504 total)
+Read 1368 bytes (7872 total)
+Read 1368 bytes (9240 total)
+Read 1368 bytes (10608 total)
+Read 1368 bytes (11976 total)
+Read 1368 bytes (13344 total)
+Read 1368 bytes (14712 total)
+Read 1368 bytes (16080 total)
+Read 1368 bytes (17448 total)
+Read 1368 bytes (18816 total)
+Read 1368 bytes (20184 total)
+Read 1368 bytes (21552 total)
+Read 1368 bytes (22920 total)
+Read 1368 bytes (24288 total)
+Read 1368 bytes (25656 total)
+Read 1368 bytes (27024 total)
+Read 1368 bytes (28392 total)
+Read 1368 bytes (29760 total)
+Read 1368 bytes (31128 total)
+Read 1368 bytes (32496 total)
+Read 1368 bytes (33864 total)
+Read 1368 bytes (35232 total)
+Read 1368 bytes (36600 total)
+Read 1368 bytes (37968 total)
+Read 1368 bytes (39336 total)
+Read 1368 bytes (40704 total)
+Read 1368 bytes (42072 total)
+Read 1368 bytes (43440 total)
+Read 1368 bytes (44808 total)
+Read 1368 bytes (46176 total)
+Read 1368 bytes (47544 total)
+Read 1368 bytes (48912 total)
+Read 1368 bytes (50280 total)
+Read 1368 bytes (51648 total)
+Read 1368 bytes (53016 total)
+Read 1368 bytes (54384 total)
+Read 1368 bytes (55752 total)
+Read 752 bytes (56504 total)
+saved cookie: SiteID=3
+saved cookie: ASP.NET_SessionId=vhh35oyekzphof55xlkhkq45
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.google.com
+status: Net::HTTPFound 1.1 302 Found
+response-header: location => http://www.google.com.do/
+response-header: cache-control => private
+response-header: content-type => text/html; charset=UTF-8
+response-header: set-cookie => PREF=ID=bb51508fd4bff5a2:FF=0:TM=1348909882:LM=1348909882:S=bVGWmhCbZd5JvOQM; expires=Mon, 29-Sep-2014 09:11:22 GMT; path=/; domain=.google.com, NID=64=VERAeorq-y_zogAlTCPgaCPayC4vX1zypmo97FKvWVEV76vXEBjrxD5lvpioCfZ85vemW8Gqb_m8BIuc7okcMX3cgQ6sDnj473O0e8X6SoCvmvdoF0wrlZIlQBPMb3YP; expires=Sun, 31-Mar-2013 09:11:22 GMT; path=/; domain=.google.com; HttpOnly
+response-header: p3p => CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+response-header: date => Sat, 29 Sep 2012 09:11:22 GMT
+response-header: server => gws
+response-header: content-length => 222
+response-header: x-xss-protection => 1; mode=block
+response-header: x-frame-options => SAMEORIGIN
+Read 222 bytes (222 total)
+saved cookie: PREF=ID=bb51508fd4bff5a2:FF=0:TM=1348909882:LM=1348909882:S=bVGWmhCbZd5JvOQM
+saved cookie: NID=64=VERAeorq-y_zogAlTCPgaCPayC4vX1zypmo97FKvWVEV76vXEBjrxD5lvpioCfZ85vemW8Gqb_m8BIuc7okcMX3cgQ6sDnj473O0e8X6SoCvmvdoF0wrlZIlQBPMb3YP
+follow redirect to: http://www.google.com.do/
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.google.com.do
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Sat, 29 Sep 2012 09:11:22 GMT
+response-header: expires => -1
+response-header: cache-control => private, max-age=0
+response-header: content-type => text/html; charset=UTF-8
+response-header: set-cookie => PREF=ID=591b1edafd151539:FF=0:TM=1348909882:LM=1348909882:S=eT1Shc2c0EVrkMU6; expires=Mon, 29-Sep-2014 09:11:22 GMT; path=/; domain=.google.com.do, NID=64=yTpyaUWZEV0Gqkzk7-0XWGsrKKh-IrONdgA3Sb78LXGp9hfbq_C00k9jKxe1EmwX46GjYAEhZRuLZRWSdSi6uc9m0gCDSi0OjRS49naUUlm1sbNr2WEW0LgCGI1Jjf-T; expires=Sun, 31-Mar-2013 09:11:22 GMT; path=/; domain=.google.com.do; HttpOnly
+response-header: p3p => CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+response-header: content-encoding => gzip
+response-header: server => gws
+response-header: content-length => 27685
+response-header: x-xss-protection => 1; mode=block
+response-header: x-frame-options => SAMEORIGIN
+Read 606 bytes (606 total)
+Read 1390 bytes (1996 total)
+Read 951 bytes (2947 total)
+Read 1390 bytes (4337 total)
+Read 1390 bytes (5727 total)
+Read 1316 bytes (7043 total)
+Read 1390 bytes (8433 total)
+Read 1390 bytes (9823 total)
+Read 1316 bytes (11139 total)
+Read 1390 bytes (12529 total)
+Read 1390 bytes (13919 total)
+Read 1390 bytes (15309 total)
+Read 1390 bytes (16699 total)
+Read 1390 bytes (18089 total)
+Read 1390 bytes (19479 total)
+Read 1390 bytes (20869 total)
+Read 1390 bytes (22259 total)
+Read 1390 bytes (23649 total)
+Read 1390 bytes (25039 total)
+Read 1390 bytes (26429 total)
+Read 1256 bytes (27685 total)
+gzip response
+saved cookie: PREF=ID=591b1edafd151539:FF=0:TM=1348909882:LM=1348909882:S=eT1Shc2c0EVrkMU6
+saved cookie: NID=64=yTpyaUWZEV0Gqkzk7-0XWGsrKKh-IrONdgA3Sb78LXGp9hfbq_C00k9jKxe1EmwX46GjYAEhZRuLZRWSdSi6uc9m0gCDSi0OjRS49naUUlm1sbNr2WEW0LgCGI1Jjf-T
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.yahoo.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Sat, 29 Sep 2012 09:11:54 GMT
+response-header: set-cookie => B=0fd18q586deqq&b=3&s=od; expires=Tue, 30-Sep-2014 20:00:00 GMT; path=/; domain=.yahoo.com, IU=deleted; expires=Fri, 30-Sep-2011 09:11:53 GMT; path=/; domain=.yahoo.com, PH=deleted; expires=Fri, 30-Sep-2011 09:11:53 GMT; path=/; domain=.yahoo.com, MSC=t=1348909914X; expires=Sun, 29-Sep-2013 09:11:54 GMT; path=/; domain=.yahoo.com, fpc=d=EATp9PAglHEnVVACCBVvrndkLYagjXNowSaorgVI.q3Ah_n5NfUoTQXCZKLEIOIpXRKFE.12K3aoCHoyI2E_POe_rG08REBFzwrPgex2gkzRX89Mo5g5afRJI8px0lW.6w6kK1LHnnJYFkiuJVIAExLDe5KttUsBZltq98qcvtdygXXtTqCdaDU0pqRvvi3x7cAy6a4-&v=2; expires=Sun, 29-Sep-2013 09:11:54 GMT; path=/; domain=www.yahoo.com, fpps=deleted; expires=Fri, 30-Sep-2011 09:11:53 GMT; path=/; domain=www.yahoo.com, CH=deleted; expires=Fri, 30-Sep-2011 09:11:53 GMT; path=/; domain=www.yahoo.com, CH=AgBQZrsQADKbEAAJlhAAGXAQAAvuEAAaVhAAOlwQAAUoEAAIJhAAOq0QADfE; expires=Mon, 29-Oct-2012 09:11:54 GMT; path=/; domain=.yahoo.com, fpt=d=KbnNABrXecyN8QPsEi1p4tKz7DK98VKXA.GxsCcy8.m1V.MN.lwrEY1HY019eKWyBNa2UpnlhtXLRynhXfAeI5cMu3cwfWzmyxmEExP9wkuIhzMu_RTvW078L_kIj8V6.3vGm_7VwkGNnERE0ZXzrq4fQZQ5lpVLocaRLte7TeMI4eK2b9PYdo7rW1gWAX_GXOvsnzvNIp1MeD0nPz7FmVbQf4YvdYh98oWWvQJpVfQ5g9dvhD9Gt1HGryrN8vWGYCbinOceueUIIwvmYjE2LTzkQMGJKbY8rzkfjStCWeQ0Npmxj3oQUybS64RSEvHYq5KWqGn4HN01.0jJzy8jjRA6fBxHjfgr7uHztugr_.pGkbZpvtgYkUKYBqxL.XnftBnc2JvRXdcxOThoHyaAsmxhYwNC6y3Nu.u6adDBSTXwsZtt5RWcnJIBhFtp_LB_NsLwZpLVoIIgWuSMyQj4b4kfI3euHjEYfyCrVUGafSWas37NNM6Sxzn564zxYm88NfAnqHWvIywZuJ0-&v=1; path=/; domain=www.yahoo.com, fpms=p_13923988=%7B%22rkse%22%3A1%2C%22showMore2%22%3A2%7D; expires=Sun, 29-Sep-2013 09:11:54 GMT; path=/; domain=www.yahoo.com, fpc_s=d=ORFwVJ8glHFHtr5MNXYOf_zCSBEwh0BmbbBaTYyTVKQ9Vk4ledN1M8pTreAhcZCKDFQq_3PvYYr_ivjVe5kEkpa0_q_Aj2Yl5fZDVgvLl9ajsCKQYLsW3dIFSOwStgmX2DG1r0n8IgarFMC7rOYSfrEPbPQ0EKL9VY11BAWSXMgSGfENiPH9WpAwQlf6bzIOtKzpXvtFkmppDa3HlEmDzLtRG.Nv8QV21eBHQsX_Og.9KCyQF5pe_LS8ON25a4DkjgBu.C5i.jL6_YKoH1d7R_wrtQG1SY5pGMMe82QIsCt3StnnsPey2yK_fAE-&v=2; path=/; domain=www.yahoo.com
+response-header: p3p => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+response-header: cache-control => private
+response-header: x-frame-options => SAMEORIGIN
+response-header: vary => Accept-Encoding
+response-header: content-type => text/html;charset=utf-8
+response-header: content-encoding => gzip
+response-header: age => 0
+response-header: transfer-encoding => chunked
+response-header: connection => keep-alive
+response-header: server => YTS/1.20.13
+Read 471 bytes (471 total)
+Read 1024 bytes (1495 total)
+Read 663 bytes (2158 total)
+Read 350 bytes (2508 total)
+Read 1024 bytes (3532 total)
+Read 1024 bytes (4556 total)
+Read 1024 bytes (5580 total)
+Read 1024 bytes (6604 total)
+Read 1024 bytes (7628 total)
+Read 1024 bytes (8652 total)
+Read 1024 bytes (9676 total)
+Read 1024 bytes (10700 total)
+Read 1024 bytes (11724 total)
+Read 1024 bytes (12748 total)
+Read 1024 bytes (13772 total)
+Read 1024 bytes (14796 total)
+Read 1024 bytes (15820 total)
+Read 1024 bytes (16844 total)
+Read 1024 bytes (17868 total)
+Read 1024 bytes (18892 total)
+Read 1024 bytes (19916 total)
+Read 1024 bytes (20940 total)
+Read 1024 bytes (21964 total)
+Read 1024 bytes (22988 total)
+Read 1024 bytes (24012 total)
+Read 1024 bytes (25036 total)
+Read 1024 bytes (26060 total)
+Read 1024 bytes (27084 total)
+Read 1024 bytes (28108 total)
+Read 1024 bytes (29132 total)
+Read 1024 bytes (30156 total)
+Read 1024 bytes (31180 total)
+Read 1024 bytes (32204 total)
+Read 1024 bytes (33228 total)
+Read 1024 bytes (34252 total)
+Read 1024 bytes (35276 total)
+Read 1024 bytes (36300 total)
+Read 1024 bytes (37324 total)
+Read 1024 bytes (38348 total)
+Read 1024 bytes (39372 total)
+Read 1024 bytes (40396 total)
+Read 1024 bytes (41420 total)
+Read 1024 bytes (42444 total)
+Read 1024 bytes (43468 total)
+Read 1024 bytes (44492 total)
+Read 1024 bytes (45516 total)
+Read 1024 bytes (46540 total)
+Read 1024 bytes (47564 total)
+Read 1024 bytes (48588 total)
+Read 1024 bytes (49612 total)
+Read 1024 bytes (50636 total)
+Read 1024 bytes (51660 total)
+Read 1024 bytes (52684 total)
+Read 1024 bytes (53708 total)
+Read 1024 bytes (54732 total)
+Read 1024 bytes (55756 total)
+Read 1024 bytes (56780 total)
+Read 1024 bytes (57804 total)
+Read 1024 bytes (58828 total)
+Read 416 bytes (59244 total)
+Read 32 bytes (59276 total)
+Read 554 bytes (59830 total)
+Read 870 bytes (60700 total)
+gzip response
+saved cookie: B=0fd18q586deqq&b=3&s=od
+saved cookie: IU=deleted
+saved cookie: PH=deleted
+saved cookie: MSC=t=1348909914X
+saved cookie: fpc=d=EATp9PAglHEnVVACCBVvrndkLYagjXNowSaorgVI.q3Ah_n5NfUoTQXCZKLEIOIpXRKFE.12K3aoCHoyI2E_POe_rG08REBFzwrPgex2gkzRX89Mo5g5afRJI8px0lW.6w6kK1LHnnJYFkiuJVIAExLDe5KttUsBZltq98qcvtdygXXtTqCdaDU0pqRvvi3x7cAy6a4-&v=2
+saved cookie: fpps=deleted
+saved cookie: CH=deleted
+saved cookie: CH=AgBQZrsQADKbEAAJlhAAGXAQAAvuEAAaVhAAOlwQAAUoEAAIJhAAOq0QADfE
+saved cookie: fpt=d=KbnNABrXecyN8QPsEi1p4tKz7DK98VKXA.GxsCcy8.m1V.MN.lwrEY1HY019eKWyBNa2UpnlhtXLRynhXfAeI5cMu3cwfWzmyxmEExP9wkuIhzMu_RTvW078L_kIj8V6.3vGm_7VwkGNnERE0ZXzrq4fQZQ5lpVLocaRLte7TeMI4eK2b9PYdo7rW1gWAX_GXOvsnzvNIp1MeD0nPz7FmVbQf4YvdYh98oWWvQJpVfQ5g9dvhD9Gt1HGryrN8vWGYCbinOceueUIIwvmYjE2LTzkQMGJKbY8rzkfjStCWeQ0Npmxj3oQUybS64RSEvHYq5KWqGn4HN01.0jJzy8jjRA6fBxHjfgr7uHztugr_.pGkbZpvtgYkUKYBqxL.XnftBnc2JvRXdcxOThoHyaAsmxhYwNC6y3Nu.u6adDBSTXwsZtt5RWcnJIBhFtp_LB_NsLwZpLVoIIgWuSMyQj4b4kfI3euHjEYfyCrVUGafSWas37NNM6Sxzn564zxYm88NfAnqHWvIywZuJ0-&v=1
+saved cookie: fpms=p_13923988=%7B%22rkse%22%3A1%2C%22showMore2%22%3A2%7D
+saved cookie: fpc_s=d=ORFwVJ8glHFHtr5MNXYOf_zCSBEwh0BmbbBaTYyTVKQ9Vk4ledN1M8pTreAhcZCKDFQq_3PvYYr_ivjVe5kEkpa0_q_Aj2Yl5fZDVgvLl9ajsCKQYLsW3dIFSOwStgmX2DG1r0n8IgarFMC7rOYSfrEPbPQ0EKL9VY11BAWSXMgSGfENiPH9WpAwQlf6bzIOtKzpXvtFkmppDa3HlEmDzLtRG.Nv8QV21eBHQsX_Og.9KCyQF5pe_LS8ON25a4DkjgBu.C5i.jL6_YKoH1d7R_wrtQG1SY5pGMMe82QIsCt3StnnsPey2yK_fAE-&v=2
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.yahoo.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Sat, 29 Sep 2012 09:11:55 GMT
+response-header: set-cookie => B=4fl09nh86deqr&b=3&s=jg; expires=Tue, 30-Sep-2014 20:00:00 GMT; path=/; domain=.yahoo.com, IU=deleted; expires=Fri, 30-Sep-2011 09:11:54 GMT; path=/; domain=.yahoo.com, PH=deleted; expires=Fri, 30-Sep-2011 09:11:54 GMT; path=/; domain=.yahoo.com, MSC=t=1348909915X; expires=Sun, 29-Sep-2013 09:11:55 GMT; path=/; domain=.yahoo.com, fpc=d=u2BP9_4hlHGdYudJhVYpzBEEi5JZCBOqUHV5.wcXmtvuLinxcTcLWtJS9iZ6G018gGJjTxrIpEff4rh473Rx6NmZSl03lcsZxjFJ1vkzTf.L.MEgQ.sd70SRCfRsBtC1ihrfK31i4XB2MA1.p31dV0XhcDPFCnARhNG4aIBQFUTQ1J7yKZ_hxjmSSNtl4vKVUQEWSLU-&v=2; expires=Sun, 29-Sep-2013 09:11:55 GMT; path=/; domain=www.yahoo.com, fpps=deleted; expires=Fri, 30-Sep-2011 09:11:54 GMT; path=/; domain=www.yahoo.com, CH=deleted; expires=Fri, 30-Sep-2011 09:11:54 GMT; path=/; domain=www.yahoo.com, CH=AgBQZrsQADKbEAAJlhAAGXAQAAvuEAAaVhAAOlwQAAUoEAAIJhAAOq0QADfE; expires=Mon, 29-Oct-2012 09:11:55 GMT; path=/; domain=.yahoo.com, fpt=d=4W2G1hXXeczz7BmdBo6YU.FT9zBYK1DhicNjRIWm23MNLOhTFPHn0Wuyy.dT.If9bNwhcOad_kxUVx6_lYTSgJOr_vgtiMOxK1.00mvl9VShSFN.jQYxyBZVX.Y.ccO7913E7jHdirltwhvQnsrJ_10RRbtqRIlS3jDikx8.Atf8yFKVmDY7uzanoxbn2isL69XHisU7gmBL2K7f80yn43D1T6BSsbV440NUoNlSsByIix12Q.EqC12VFkaypsxq5MvdMZdvw_OOfSZGppbGT2ZJu1IALmq30mhQypFDuDWAPSnw3LrT_DnINc5.UvJqilJRqKbO.E4AdEvym38MBCxBorcc9Hr7IbGGko1qXCijm4Bip5B.jhutOwDltV9IAG9ml5qHE4b0BDYIiJvVbMGUqW7F7uVE2SUmgWAfg8bvkUN3cA1hBx.HoHE.1V5sIEKkLjbI3vLp8374dhXCFALW_SWvQYaAMjOg_9pX0d9fV6KYvYUwXCmMP_y70bZHw4cbPqd.a85yVsE-&v=1; path=/; domain=www.yahoo.com, fpms=p_13923988=%7B%22rkse%22%3A1%2C%22showMore2%22%3A2%7D; expires=Sun, 29-Sep-2013 09:11:55 GMT; path=/; domain=www.yahoo.com, fpc_s=d=q.o3q.UhlHH3DRfkHq2HmfSeFrPChRRhItpintO_woQjMd2JKxs.souwc1wMFbSN6JZXRZp3ycoJuYN6z2STmdkzCljZRBJ5nAMKQ1NaTTo6Wt_MBH8QmidXR3cKhAkoPHBttZUSileXinigtqmSj6jzpKWPW2xxHr89Gfu5WjF1ZtanC6dZhz3wVzMYavcV6a4xPhxiNgXj3s.V2P3cy0l2R5oJkX5SLSwl27UYS.NiA91fCTwOAT0GXF7xSCLmFnx7TiVbYnU_TCK4rB54jTOHI7ZjErI7_2k3TBY.BpaYIhA5wp_U5_tltfA-&v=2; path=/; domain=www.yahoo.com
+response-header: p3p => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+response-header: cache-control => private
+response-header: x-frame-options => SAMEORIGIN
+response-header: vary => Accept-Encoding
+response-header: content-type => text/html;charset=utf-8
+response-header: content-encoding => gzip
+response-header: age => 0
+response-header: transfer-encoding => chunked
+response-header: connection => keep-alive
+response-header: server => YTS/1.20.13
+Read 179 bytes (179 total)
+Read 1390 bytes (1569 total)
+Read 589 bytes (2158 total)
+Read 790 bytes (2948 total)
+Read 1390 bytes (4338 total)
+Read 1390 bytes (5728 total)
+Read 1390 bytes (7118 total)
+Read 1390 bytes (8508 total)
+Read 1390 bytes (9898 total)
+Read 1390 bytes (11288 total)
+Read 1390 bytes (12678 total)
+Read 1390 bytes (14068 total)
+Read 1390 bytes (15458 total)
+Read 1390 bytes (16848 total)
+Read 1390 bytes (18238 total)
+Read 1390 bytes (19628 total)
+Read 1390 bytes (21018 total)
+Read 1390 bytes (22408 total)
+Read 1390 bytes (23798 total)
+Read 1390 bytes (25188 total)
+Read 1390 bytes (26578 total)
+Read 1390 bytes (27968 total)
+Read 1390 bytes (29358 total)
+Read 1390 bytes (30748 total)
+Read 1390 bytes (32138 total)
+Read 1390 bytes (33528 total)
+Read 1390 bytes (34918 total)
+Read 1390 bytes (36308 total)
+Read 1390 bytes (37698 total)
+Read 1390 bytes (39088 total)
+Read 1390 bytes (40478 total)
+Read 1390 bytes (41868 total)
+Read 1390 bytes (43258 total)
+Read 1390 bytes (44648 total)
+Read 1390 bytes (46038 total)
+Read 1390 bytes (47428 total)
+Read 1390 bytes (48818 total)
+Read 1390 bytes (50208 total)
+Read 1390 bytes (51598 total)
+Read 1390 bytes (52988 total)
+Read 1390 bytes (54378 total)
+Read 1390 bytes (55768 total)
+Read 1390 bytes (57158 total)
+Read 1390 bytes (58548 total)
+Read 713 bytes (59261 total)
+Read 32 bytes (59293 total)
+Read 623 bytes (59916 total)
+Read 800 bytes (60716 total)
+gzip response
+saved cookie: B=4fl09nh86deqr&b=3&s=jg
+saved cookie: IU=deleted
+saved cookie: PH=deleted
+saved cookie: MSC=t=1348909915X
+saved cookie: fpc=d=u2BP9_4hlHGdYudJhVYpzBEEi5JZCBOqUHV5.wcXmtvuLinxcTcLWtJS9iZ6G018gGJjTxrIpEff4rh473Rx6NmZSl03lcsZxjFJ1vkzTf.L.MEgQ.sd70SRCfRsBtC1ihrfK31i4XB2MA1.p31dV0XhcDPFCnARhNG4aIBQFUTQ1J7yKZ_hxjmSSNtl4vKVUQEWSLU-&v=2
+saved cookie: fpps=deleted
+saved cookie: CH=deleted
+saved cookie: CH=AgBQZrsQADKbEAAJlhAAGXAQAAvuEAAaVhAAOlwQAAUoEAAIJhAAOq0QADfE
+saved cookie: fpt=d=4W2G1hXXeczz7BmdBo6YU.FT9zBYK1DhicNjRIWm23MNLOhTFPHn0Wuyy.dT.If9bNwhcOad_kxUVx6_lYTSgJOr_vgtiMOxK1.00mvl9VShSFN.jQYxyBZVX.Y.ccO7913E7jHdirltwhvQnsrJ_10RRbtqRIlS3jDikx8.Atf8yFKVmDY7uzanoxbn2isL69XHisU7gmBL2K7f80yn43D1T6BSsbV440NUoNlSsByIix12Q.EqC12VFkaypsxq5MvdMZdvw_OOfSZGppbGT2ZJu1IALmq30mhQypFDuDWAPSnw3LrT_DnINc5.UvJqilJRqKbO.E4AdEvym38MBCxBorcc9Hr7IbGGko1qXCijm4Bip5B.jhutOwDltV9IAG9ml5qHE4b0BDYIiJvVbMGUqW7F7uVE2SUmgWAfg8bvkUN3cA1hBx.HoHE.1V5sIEKkLjbI3vLp8374dhXCFALW_SWvQYaAMjOg_9pX0d9fV6KYvYUwXCmMP_y70bZHw4cbPqd.a85yVsE-&v=1
+saved cookie: fpms=p_13923988=%7B%22rkse%22%3A1%2C%22showMore2%22%3A2%7D
+saved cookie: fpc_s=d=q.o3q.UhlHH3DRfkHq2HmfSeFrPChRRhItpintO_woQjMd2JKxs.souwc1wMFbSN6JZXRZp3ycoJuYN6z2STmdkzCljZRBJ5nAMKQ1NaTTo6Wt_MBH8QmidXR3cKhAkoPHBttZUSileXinigtqmSj6jzpKWPW2xxHr89Gfu5WjF1ZtanC6dZhz3wVzMYavcV6a4xPhxiNgXj3s.V2P3cy0l2R5oJkX5SLSwl27UYS.NiA91fCTwOAT0GXF7xSCLmFnx7TiVbYnU_TCK4rB54jTOHI7ZjErI7_2k3TBY.BpaYIhA5wp_U5_tltfA-&v=2
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => cldf-peace-bereavement.org
+status: Net::HTTPOK 1.1 200 OK
+response-header: cache-control => private
+response-header: content-length => 56508
+response-header: content-type => text/html; charset=utf-8
+response-header: server => Microsoft-IIS/7.0
+response-header: x-aspnet-version => 2.0.50727
+response-header: set-cookie => SiteID=3; path=/; HttpOnly, ASP.NET_SessionId=j1jjfffsbhjedq45a5nhtlfh; path=/; HttpOnly
+response-header: x-powered-by => ASP.NET
+response-header: date => Sat, 29 Sep 2012 09:12:15 GMT
+Read 1032 bytes (1032 total)
+Read 1368 bytes (2400 total)
+Read 1368 bytes (3768 total)
+Read 1368 bytes (5136 total)
+Read 1368 bytes (6504 total)
+Read 1368 bytes (7872 total)
+Read 1368 bytes (9240 total)
+Read 1368 bytes (10608 total)
+Read 1368 bytes (11976 total)
+Read 1368 bytes (13344 total)
+Read 1368 bytes (14712 total)
+Read 4104 bytes (18816 total)
+Read 1368 bytes (20184 total)
+Read 1368 bytes (21552 total)
+Read 1368 bytes (22920 total)
+Read 1368 bytes (24288 total)
+Read 1368 bytes (25656 total)
+Read 1368 bytes (27024 total)
+Read 1368 bytes (28392 total)
+Read 1368 bytes (29760 total)
+Read 1368 bytes (31128 total)
+Read 1368 bytes (32496 total)
+Read 1368 bytes (33864 total)
+Read 1368 bytes (35232 total)
+Read 1368 bytes (36600 total)
+Read 1368 bytes (37968 total)
+Read 1368 bytes (39336 total)
+Read 1368 bytes (40704 total)
+Read 1368 bytes (42072 total)
+Read 1368 bytes (43440 total)
+Read 1368 bytes (44808 total)
+Read 1368 bytes (46176 total)
+Read 1368 bytes (47544 total)
+Read 1368 bytes (48912 total)
+Read 1368 bytes (50280 total)
+Read 1368 bytes (51648 total)
+Read 1368 bytes (53016 total)
+Read 1368 bytes (54384 total)
+Read 1368 bytes (55752 total)
+Read 756 bytes (56508 total)
+saved cookie: SiteID=3
+saved cookie: ASP.NET_SessionId=j1jjfffsbhjedq45a5nhtlfh
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => cldf-peace-bereavement.org
+status: Net::HTTPOK 1.1 200 OK
+response-header: cache-control => private
+response-header: content-length => 56508
+response-header: content-type => text/html; charset=utf-8
+response-header: server => Microsoft-IIS/7.0
+response-header: x-aspnet-version => 2.0.50727
+response-header: set-cookie => SiteID=3; path=/; HttpOnly, ASP.NET_SessionId=ljqneq55y2s21yjnbfrlg1ui; path=/; HttpOnly
+response-header: x-powered-by => ASP.NET
+response-header: date => Sat, 29 Sep 2012 09:13:40 GMT
+Read 1032 bytes (1032 total)
+Read 1368 bytes (2400 total)
+Read 1368 bytes (3768 total)
+Read 1368 bytes (5136 total)
+Read 1368 bytes (6504 total)
+Read 1368 bytes (7872 total)
+Read 1368 bytes (9240 total)
+Read 1368 bytes (10608 total)
+Read 1368 bytes (11976 total)
+Read 1368 bytes (13344 total)
+Read 1368 bytes (14712 total)
+Read 1368 bytes (16080 total)
+Read 1368 bytes (17448 total)
+Read 1368 bytes (18816 total)
+Read 1368 bytes (20184 total)
+Read 1368 bytes (21552 total)
+Read 1368 bytes (22920 total)
+Read 1368 bytes (24288 total)
+Read 1368 bytes (25656 total)
+Read 1368 bytes (27024 total)
+Read 1368 bytes (28392 total)
+Read 1368 bytes (29760 total)
+Read 1368 bytes (31128 total)
+Read 1368 bytes (32496 total)
+Read 1368 bytes (33864 total)
+Read 1368 bytes (35232 total)
+Read 1368 bytes (36600 total)
+Read 1368 bytes (37968 total)
+Read 1368 bytes (39336 total)
+Read 1368 bytes (40704 total)
+Read 1368 bytes (42072 total)
+Read 1368 bytes (43440 total)
+Read 1368 bytes (44808 total)
+Read 1368 bytes (46176 total)
+Read 1368 bytes (47544 total)
+Read 1368 bytes (48912 total)
+Read 1368 bytes (50280 total)
+Read 1368 bytes (51648 total)
+Read 1368 bytes (53016 total)
+Read 3492 bytes (56508 total)
+saved cookie: SiteID=3
+saved cookie: ASP.NET_SessionId=ljqneq55y2s21yjnbfrlg1ui
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => cldf-peace-bereavement.org
+status: Net::HTTPOK 1.1 200 OK
+response-header: cache-control => private
+response-header: content-length => 56508
+response-header: content-type => text/html; charset=utf-8
+response-header: server => Microsoft-IIS/7.0
+response-header: x-aspnet-version => 2.0.50727
+response-header: set-cookie => SiteID=3; path=/; HttpOnly, ASP.NET_SessionId=ww5kczq0xtp40p55bqptntyj; path=/; HttpOnly
+response-header: x-powered-by => ASP.NET
+response-header: date => Sat, 29 Sep 2012 09:14:33 GMT
+Read 1032 bytes (1032 total)
+Read 1368 bytes (2400 total)
+Read 1368 bytes (3768 total)
+Read 1368 bytes (5136 total)
+Read 1368 bytes (6504 total)
+Read 1368 bytes (7872 total)
+Read 1368 bytes (9240 total)
+Read 1368 bytes (10608 total)
+Read 1368 bytes (11976 total)
+Read 1368 bytes (13344 total)
+Read 2736 bytes (16080 total)
+Read 1368 bytes (17448 total)
+Read 1368 bytes (18816 total)
+Read 1368 bytes (20184 total)
+Read 1368 bytes (21552 total)
+Read 1368 bytes (22920 total)
+Read 1368 bytes (24288 total)
+Read 1368 bytes (25656 total)
+Read 1368 bytes (27024 total)
+Read 1368 bytes (28392 total)
+Read 1368 bytes (29760 total)
+Read 1368 bytes (31128 total)
+Read 1368 bytes (32496 total)
+Read 1368 bytes (33864 total)
+Read 1368 bytes (35232 total)
+Read 1368 bytes (36600 total)
+Read 1368 bytes (37968 total)
+Read 1368 bytes (39336 total)
+Read 1368 bytes (40704 total)
+Read 1368 bytes (42072 total)
+Read 1368 bytes (43440 total)
+Read 1368 bytes (44808 total)
+Read 4104 bytes (48912 total)
+Read 1368 bytes (50280 total)
+Read 1368 bytes (51648 total)
+Read 1368 bytes (53016 total)
+Read 1368 bytes (54384 total)
+Read 1368 bytes (55752 total)
+Read 756 bytes (56508 total)
+saved cookie: SiteID=3
+saved cookie: ASP.NET_SessionId=ww5kczq0xtp40p55bqptntyj
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.google.com
+status: Net::HTTPFound 1.1 302 Found
+response-header: location => http://www.google.com.do/
+response-header: cache-control => private
+response-header: content-type => text/html; charset=UTF-8
+response-header: set-cookie => PREF=ID=c41e2a523594917e:FF=0:TM=1348910670:LM=1348910670:S=_duAHP1cMmgfkJ4t; expires=Mon, 29-Sep-2014 09:24:30 GMT; path=/; domain=.google.com, NID=64=JStKRFoaWbYUifiDU7JcyoGoXp_UwpFU729fqY_yZd527oy1-LgHe3IVJNnXv-dCZHAGtKCEP_MAh8c3H8WI8FGkNukcypnu21otcoYpGe0RXRP7jAKiIY3N9II6xz5S; expires=Sun, 31-Mar-2013 09:24:30 GMT; path=/; domain=.google.com; HttpOnly
+response-header: p3p => CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+response-header: date => Sat, 29 Sep 2012 09:24:30 GMT
+response-header: server => gws
+response-header: content-length => 222
+response-header: x-xss-protection => 1; mode=block
+response-header: x-frame-options => SAMEORIGIN
+Read 222 bytes (222 total)
+saved cookie: PREF=ID=c41e2a523594917e:FF=0:TM=1348910670:LM=1348910670:S=_duAHP1cMmgfkJ4t
+saved cookie: NID=64=JStKRFoaWbYUifiDU7JcyoGoXp_UwpFU729fqY_yZd527oy1-LgHe3IVJNnXv-dCZHAGtKCEP_MAh8c3H8WI8FGkNukcypnu21otcoYpGe0RXRP7jAKiIY3N9II6xz5S
+follow redirect to: http://www.google.com.do/
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.google.com.do
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Sat, 29 Sep 2012 09:24:31 GMT
+response-header: expires => -1
+response-header: cache-control => private, max-age=0
+response-header: content-type => text/html; charset=UTF-8
+response-header: set-cookie => PREF=ID=de6f1bff035e6692:FF=0:TM=1348910671:LM=1348910671:S=p1C8vfijpO10GTL4; expires=Mon, 29-Sep-2014 09:24:31 GMT; path=/; domain=.google.com.do, NID=64=ouix8B4S8HsE7i5LaGSmDQxWYMQuKeNMcriGLj-5g5UtNCtl85i-N_qkWjWg5pvYJXb9ICvcGtZOmXdStIErFbltQF9K3NYXBFU_xEe1quvpKbUohQmtZ6gckvP2Ylsz; expires=Sun, 31-Mar-2013 09:24:31 GMT; path=/; domain=.google.com.do; HttpOnly
+response-header: p3p => CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+response-header: content-encoding => gzip
+response-header: server => gws
+response-header: content-length => 27652
+response-header: x-xss-protection => 1; mode=block
+response-header: x-frame-options => SAMEORIGIN
+Read 606 bytes (606 total)
+Read 1390 bytes (1996 total)
+Read 889 bytes (2885 total)
+Read 1390 bytes (4275 total)
+Read 1390 bytes (5665 total)
+Read 1316 bytes (6981 total)
+Read 1390 bytes (8371 total)
+Read 1390 bytes (9761 total)
+Read 1316 bytes (11077 total)
+Read 1390 bytes (12467 total)
+Read 1390 bytes (13857 total)
+Read 1390 bytes (15247 total)
+Read 1390 bytes (16637 total)
+Read 1390 bytes (18027 total)
+Read 1390 bytes (19417 total)
+Read 1390 bytes (20807 total)
+Read 1390 bytes (22197 total)
+Read 1390 bytes (23587 total)
+Read 1390 bytes (24977 total)
+Read 1390 bytes (26367 total)
+Read 1285 bytes (27652 total)
+gzip response
+saved cookie: PREF=ID=de6f1bff035e6692:FF=0:TM=1348910671:LM=1348910671:S=p1C8vfijpO10GTL4
+saved cookie: NID=64=ouix8B4S8HsE7i5LaGSmDQxWYMQuKeNMcriGLj-5g5UtNCtl85i-N_qkWjWg5pvYJXb9ICvcGtZOmXdStIErFbltQF9K3NYXBFU_xEe1quvpKbUohQmtZ6gckvP2Ylsz
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => cldf-peace-bereavement.org
+status: Net::HTTPOK 1.1 200 OK
+response-header: cache-control => private
+response-header: content-length => 56508
+response-header: content-type => text/html; charset=utf-8
+response-header: server => Microsoft-IIS/7.0
+response-header: x-aspnet-version => 2.0.50727
+response-header: set-cookie => SiteID=3; path=/; HttpOnly, ASP.NET_SessionId=ggjitnfaitezfnflworqcg45; path=/; HttpOnly
+response-header: x-powered-by => ASP.NET
+response-header: date => Sat, 29 Sep 2012 09:24:38 GMT
+Read 1032 bytes (1032 total)
+Read 1368 bytes (2400 total)
+Read 1368 bytes (3768 total)
+Read 1368 bytes (5136 total)
+Read 1368 bytes (6504 total)
+Read 1368 bytes (7872 total)
+Read 1368 bytes (9240 total)
+Read 1368 bytes (10608 total)
+Read 1368 bytes (11976 total)
+Read 1368 bytes (13344 total)
+Read 1368 bytes (14712 total)
+Read 1368 bytes (16080 total)
+Read 1368 bytes (17448 total)
+Read 1368 bytes (18816 total)
+Read 1368 bytes (20184 total)
+Read 1368 bytes (21552 total)
+Read 1368 bytes (22920 total)
+Read 1368 bytes (24288 total)
+Read 1368 bytes (25656 total)
+Read 1368 bytes (27024 total)
+Read 1368 bytes (28392 total)
+Read 2736 bytes (31128 total)
+Read 1368 bytes (32496 total)
+Read 2736 bytes (35232 total)
+Read 1368 bytes (36600 total)
+Read 2736 bytes (39336 total)
+Read 1368 bytes (40704 total)
+Read 1368 bytes (42072 total)
+Read 1368 bytes (43440 total)
+Read 1368 bytes (44808 total)
+Read 1368 bytes (46176 total)
+Read 1368 bytes (47544 total)
+Read 1368 bytes (48912 total)
+Read 1368 bytes (50280 total)
+Read 1368 bytes (51648 total)
+Read 1368 bytes (53016 total)
+Read 1368 bytes (54384 total)
+Read 1368 bytes (55752 total)
+Read 756 bytes (56508 total)
+saved cookie: SiteID=3
+saved cookie: ASP.NET_SessionId=ggjitnfaitezfnflworqcg45

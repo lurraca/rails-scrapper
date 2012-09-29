@@ -35,7 +35,9 @@ class Crawler
       agent.log = Logger.new('out.log')
       agent.user_agent_alias = 'Mac Safari'
       begin
+        puts @url
         page = agent.get(@url)
+
       #rescue Mechanize::ResponseCodeError => exception
       rescue StandardError
         #if exception.response_code == '400' or exception.response_code == '500'
@@ -46,6 +48,11 @@ class Crawler
       @isActive = true
       @title = page.title
       page.links.each do |link| #For every link in the page
+        begin
+          link.uri.to_s
+        rescue StandardError
+          next
+        end
         @keywords.each do |keyword| #For every keyword provided
           str = "/"+keyword.to_s+"/" #Turn keyword into regexp
           regexp = str.to_regexp
