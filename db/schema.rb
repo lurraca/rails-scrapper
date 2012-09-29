@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120927084840) do
+ActiveRecord::Schema.define(:version => 20120928101927) do
 
   create_table "batches", :force => true do |t|
     t.string   "status"
@@ -22,6 +22,17 @@ ActiveRecord::Schema.define(:version => 20120927084840) do
     t.datetime "updated_at",   :null => false
     t.integer  "min_keywords"
   end
+
+  create_table "matched_links", :force => true do |t|
+    t.integer  "site_id"
+    t.string   "keyword"
+    t.text     "link_text"
+    t.text     "link_url"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "matched_links", ["site_id"], :name => "index_matched_links_on_site_id"
 
   create_table "settings", :force => true do |t|
     t.string   "var",                      :null => false

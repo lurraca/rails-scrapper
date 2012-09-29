@@ -11,4 +11,3 @@ $ ->
   $("#cl-btn").click ->
    $("#keywords-select").select2 "val", ""
 
-  $(".select2-input").attr('data-validation', 'validate-url');

@@ -12,35 +12,55 @@ class Crawler
     @isBusiness = false
     @isActive
   end
+    def domain_name?(url)
+      #domain_regex = /^((http|https):\/\/)[a-z0-9]*(\.?[a-z0-9]+)\.[a-z]{2,5}(:[0-9]{1,5})?(\/.)?$/ix
+      domain_regex = /^https?:\/\//
+      if !domain_regex.match(url).nil?
+        status = true
+      else
+        @url = 'http://'+url
+        status = false
+      end
+      if !domain_regex.match(@url).nil?
+        status = true
+      else
+        status = false
+      end
+      status
+    end
 
   def crawl  #Method will accept URL and Keywords will check each link agaisnt the keyword to detect if business
-    agent = Mechanize.new
-    agent.log = Logger.new('out.log')
-    agent.user_agent_alias = 'Mac Safari'
-    begin
-      page = agent.get(@url)
-    #rescue Mechanize::ResponseCodeError => exception
-    rescue StandardError
-      #if exception.response_code == '400' or exception.response_code == '500'
-        @isActive = false
-        return
-      #end
-    end
-    @isActive = true
-    @title = page.title
-    page.links.each do |link| #For every link in the page
-      @keywords.each do |keyword| #For every keyword provided
-        str = "/"+keyword.to_s+"/" #Turn keyword into regexp
-        regexp = str.to_regexp
-        if regexp.match(link.uri.to_s).nil? and regexp.match(link.text).nil?
-          puts link.uri
-          puts link.text
-        else
-          @matched_keywords[keyword] = link #HASH of matched keywords
+    if domain_name?(@url)
+      agent = Mechanize.new
+      agent.log = Logger.new('out.log')
+      agent.user_agent_alias = 'Mac Safari'
+      begin
+        page = agent.get(@url)
+      #rescue Mechanize::ResponseCodeError => exception
+      rescue StandardError
+        #if exception.response_code == '400' or exception.response_code == '500'
+          @isActive = false
+          return
+        #end
+      end
+      @isActive = true
+      @title = page.title
+      page.links.each do |link| #For every link in the page
+        @keywords.each do |keyword| #For every keyword provided
+          str = "/"+keyword.to_s+"/" #Turn keyword into regexp
+          regexp = str.to_regexp
+          if regexp.match(link.uri.to_s).nil? and regexp.match(link.text).nil?
+            puts link.uri
+            puts link.text
+          else
+            @matched_keywords[keyword] = link #HASH of matched keywords
+          end
         end
       end
+      @isBusiness = true if @matched_keywords.values.uniq.count >= @quantity_to_match
+    else
+      @isActive = false
     end
-    @isBusiness = true if @matched_keywords.values.uniq.count >= @quantity_to_match
   end
 
   def isBusiness
