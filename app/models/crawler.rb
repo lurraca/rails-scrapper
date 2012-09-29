@@ -37,6 +37,11 @@ class Crawler
       begin
         puts @url
         page = agent.get(@url)
+        unless page.content_type == 'text/html; charset=utf-8'
+          @isActive = false
+          @title = page.content_type
+          return
+       end
 
       #rescue Mechanize::ResponseCodeError => exception
       rescue StandardError
