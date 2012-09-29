@@ -35,7 +35,6 @@ class Crawler
       agent.log = Logger.new('out.log')
       agent.user_agent_alias = 'Mac Safari'
       begin
-        puts @url
         page = agent.get(@url)
         unless page.content_type == 'text/html; charset=utf-8'
           @isActive = false
