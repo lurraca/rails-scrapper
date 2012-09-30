@@ -36,7 +36,7 @@ class Crawler
       agent.user_agent_alias = 'Mac Safari'
       begin
         page = agent.get(@url)
-        unless page.content_type == 'text/html; charset=utf-8'
+        if /html/.match(page.content_type).nil?
           @isActive = false
           @title = page.content_type
           return
