@@ -1,0 +1,44 @@
+<h1>Batches</h1>
+
+<table class="table table-bordered table-condensed">
+	<thead class="table-bw">
+		<tr>
+			<th>Batch ID</th>
+			<th>Status</th>
+			<th>Keywords</th>
+			<th>Started Time</th>
+			<th>Finish Time</th>
+			<th>Total Time</th>
+			<th>Total Sites Crawled</th>
+		</tr>
+	</thead>
+	<% @batches.each do |batch| %>
+	<tr>
+		<td><%= batch.id %></td>
+		<td><%= batch.status %></td>
+		<td><%= batch.keywords %></td>
+		<td><%= batch.started_time %></td>
+		<td><%= batch.finish_time %></td>
+		<td><%= batch.total_time unless batch.nil? %></td>
+		<td><%= batch.sites.count %></td>
+	</tr>
+	<% end %>
+</table>
+
+<a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
+
+<a class="btn" data-toggle="modal" href="#myModal" >Launch Modal</a>
+
+<div class="modal" id="myModal" style="display:none;">
+  <div class="modal-header">
+    <a class="close" data-dismiss="modal">×</a>
+    <h3>Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <p>Shit</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn">Close</a>
+    <a href="#" class="btn btn-primary">Save changes</a>
+  </div>
+</div>

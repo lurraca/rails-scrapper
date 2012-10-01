@@ -1,4 +1,8 @@
 RailsScrapper::Application.routes.draw do
+  get "batch/index"
+
+  get "batch/show"
+
   get "home/index"
   get "/single" => "home#single_crawl"
   get "/multi" => "home#multi_crawl"

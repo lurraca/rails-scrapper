@@ -5,7 +5,12 @@ class Batch < ActiveRecord::Base
   accepts_nested_attributes_for :sites, :reject_if => lambda { |a| a.nil? }, :allow_destroy => true
 
   def total_time
-  	seconds = finish_time - started_time
+  	if !finish_time.nil?
+  	  seconds = finish_time - started_time
+  	else
+  	  #seconds = (DateTime.now.to_datetime - started_time.to_datetime).to_i
+  	  seconds = 0
+  	end
   	'%d days, %d hours, %d minutes, %d seconds' %
     # the .reverse lets us put the larger units first for readability
     [24,60,60].reverse.inject([seconds]) {|result, unitsize|

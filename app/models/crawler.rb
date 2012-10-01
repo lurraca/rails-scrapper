@@ -36,6 +36,7 @@ class Crawler
       agent.user_agent_alias = 'Mac Safari'
       begin
         page = agent.get(@url)
+        puts page.content_type
         if /html/.match(page.content_type).nil?
           @isActive = false
           @title = page.content_type
@@ -45,6 +46,7 @@ class Crawler
       #rescue Mechanize::ResponseCodeError => exception
       rescue StandardError
         #if exception.response_code == '400' or exception.response_code == '500'
+          puts StandardError
           @isActive = false
           return
         #end
@@ -55,6 +57,7 @@ class Crawler
         begin
           link.uri.to_s
         rescue StandardError
+          puts StandardError
           next
         end
         @keywords.each do |keyword| #For every keyword provided
