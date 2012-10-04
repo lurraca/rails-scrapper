@@ -51,6 +51,7 @@ class HomeController < ApplicationController
               matched_link = site.matched_links.build(:keyword => key, :link_text => value.to_s, :link_url => value.uri.to_s)
               matched_link.save
             end
+          @crawler = nil
           end
         else
           errors << row
@@ -59,19 +60,6 @@ class HomeController < ApplicationController
       batch.finish_time = DateTime.now
       batch.status = :complete
       batch.save if batch.valid?
-      if errors.any?
-        errFile ="errors_#{Date.today.strftime('%d%b%y')}.csv"
-        errors.insert(0, Customer.csv_header)
-        errCSV = CSV.generate do |csv|
-          errors.each {|row| csv << row}
-        end
-        send_data errCSV,
-          :type => 'text/csv; charset=iso-8859-1; header=present',
-          :disposition => "attachment; filename=#{errFile}.csv"
-      else
-        flash[:notice] = I18n.t('customer.import.success')
-        redirect_to multi_url #GET
-      end
     end
   end
 end

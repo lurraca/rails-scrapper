@@ -32,7 +32,10 @@ class Crawler
   def crawl  #Method will accept URL and Keywords will check each link agaisnt the keyword to detect if business
     if domain_name?(@url)
       agent = Mechanize.new
-      agent.log = Logger.new('out.log')
+      agent.max_history=1
+      agent.read_timeout=4
+      agent.open_timeout=4
+      agent.log = Logger.new "mmech.log"
       agent.user_agent_alias = 'Mac Safari'
       begin
         page = agent.get(@url)
@@ -41,9 +44,11 @@ class Crawler
           @isActive = false
           @title = page.content_type
           return
-       end
-
+        end
       #rescue Mechanize::ResponseCodeError => exception
+      rescue Timeout::Error 
+        @isActive = false
+        return
       rescue StandardError
         #if exception.response_code == '400' or exception.response_code == '500'
           puts StandardError
@@ -57,16 +62,19 @@ class Crawler
         begin
           link.uri.to_s
         rescue StandardError
-          puts StandardError
+          #puts StandardError
           next
         end
         @keywords.each do |keyword| #For every keyword provided
           str = "/"+keyword.to_s+"/" #Turn keyword into regexp
           regexp = str.to_regexp
-          if regexp.match(link.uri.to_s).nil? and regexp.match(link.text).nil?
-            puts link.uri
-            puts link.text
-          else
+          begin
+	    puts (regexp.match(link.uri.to_s).nil? and regexp.match(link.text).nil?)
+          rescue StandardError
+            next
+          end
+	  if regexp.match(link.uri.to_s).nil? and regexp.match(link.text).nil?
+	  else
             @matched_keywords[keyword] = link #HASH of matched keywords
           end
         end
@@ -75,6 +83,8 @@ class Crawler
     else
       @isActive = false
     end
+      agent.shutdown
+      agent = nil
   end
 
   def isBusiness
