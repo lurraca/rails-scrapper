@@ -4,6 +4,11 @@ class Batch < ActiveRecord::Base
   has_many :sites, :dependent => :destroy
   accepts_nested_attributes_for :sites, :reject_if => lambda { |a| a.nil? }, :allow_destroy => true
 
+
+  def csv_header
+    "URL, Active, Business".split(', ')
+  end
+  
   def total_time
   	if !finish_time.nil?
   	  seconds = finish_time - started_time

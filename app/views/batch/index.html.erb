@@ -14,7 +14,7 @@
 	</thead>
 	<% @batches.each do |batch| %>
 	<tr>
-		<td><%= batch.id %></td>
+		<td><%= link_to batch.id, batch_export_path(:id =>batch.id) %></td>
 		<td><%= batch.status %></td>
 		<td><%= batch.keywords %></td>
 		<td><%= batch.started_time %></td>

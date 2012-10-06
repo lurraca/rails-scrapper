@@ -33,33 +33,10 @@ class HomeController < ApplicationController
       infile = params[:inputfile].read
       n, errors = 0, []
       batch = Batch.create(:status => :started, :keywords => @keywords, :started_time => DateTime.now, :min_keywords => Setting.min_keywords)
-      batch.save if batch.valid?
-      CSV.parse(infile) do |row|
-        n +=1
-        next if n == 1 or row.join.blank?
-        site = batch.sites.build(:url => row[0])
-        if site.valid? #PROBABLY MOVE THIS CODE TO SOMEWHERE ELSE
-          @crawler = Crawler.new(site.url, batch.keywords.split(","), batch.min_keywords)
-          @crawler.crawl
-          site.valid_site = @crawler.isActive
-          site.business = @crawler.isBusiness
-          site.title = @crawler.title
-          site.scapped = true
-          site.save
-          if @crawler.matched_keywords.count > 0
-            @crawler.matched_keywords.each do |key, value|
-              matched_link = site.matched_links.build(:keyword => key, :link_text => value.to_s, :link_url => value.uri.to_s)
-              matched_link.save
-            end
-          @crawler = nil
-          end
-        else
-          errors << row
-        end
+      if batch.save
+        BatchWorker.perform_async(batch.id,infile)
+        redirect_to batch_index_path
       end
-      batch.finish_time = DateTime.now
-      batch.status = :complete
-      batch.save if batch.valid?
     end
   end
 end

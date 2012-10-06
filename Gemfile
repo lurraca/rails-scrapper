@@ -6,6 +6,9 @@ gem 'rails', '3.2.8'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'sidekiq'
+gem 'sinatra', require: false
+gem 'slim'
 gem 'bootstrap-sass', '~> 2.1.0.0'
 gem 'bootswatch-rails'
 gem 'mechanize'

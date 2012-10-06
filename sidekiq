@@ -1,0 +1,17 @@
+$ bundle exec sidekiq      
+Hello World
+/Users/lurraca/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/dependencies.rb:317:in `rescue in depend_on': No such file to load -- ./crawler (LoadError)
+        from /Users/lurraca/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/dependencies.rb:312:in `depend_on'
+        from /Users/lurraca/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/dependencies.rb:225:in `require_dependency'
+        from /Users/lurraca/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/engine.rb:439:in `block (2 levels) in eager_load!'
+        from /Users/lurraca/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/engine.rb:438:in `each'
+        from /Users/lurraca/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/engine.rb:438:in `block in eager_load!'
+        from /Users/lurraca/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/engine.rb:436:in `each'
+        from /Users/lurraca/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/engine.rb:436:in `eager_load!'
+        from /Users/lurraca/.rvm/gems/ruby-1.9.3-p194/gems/sidekiq-2.3.3/lib/sidekiq/cli.rb:127:in `boot_system'
+        from /Users/lurraca/.rvm/gems/ruby-1.9.3-p194/gems/sidekiq-2.3.3/lib/sidekiq/cli.rb:69:in `parse'
+        from /Users/lurraca/.rvm/gems/ruby-1.9.3-p194/gems/sidekiq-2.3.3/bin/sidekiq:7:in `<top (required)>'
+        from /Users/lurraca/.rvm/gems/ruby-1.9.3-p194/bin/sidekiq:19:in `load'
+        from /Users/lurraca/.rvm/gems/ruby-1.9.3-p194/bin/sidekiq:19:in `<main>'
+        from /Users/lurraca/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+        from /Users/lurraca/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'

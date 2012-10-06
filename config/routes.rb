@@ -1,5 +1,7 @@
+require 'sidekiq/web'
 RailsScrapper::Application.routes.draw do
   get "batch/index"
+  get "batch/export"
 
   get "batch/show"
 
@@ -11,6 +13,7 @@ RailsScrapper::Application.routes.draw do
   post "/update" => "home#update_settings"
   post "/upload" => "home#import"
   root :to => "home#index"
+  mount Sidekiq::Web,  at: '/sidekiq'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
