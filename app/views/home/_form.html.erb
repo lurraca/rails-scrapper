@@ -24,6 +24,14 @@
 
 	  		</div>
 	  	</div>
+	  	<div class="field control-group">
+	  		<%= label_tag :neg_keywords, "Negative Keywords", :class=>"control-label" %>
+	  		<div class="controls">
+		 		<%= text_area_tag(:keywords,@settings.neg_keywords,:class=>"input-large", :id =>"neg-keywords-select", :style=>"width: 290px;", :disabled => true) %>
+		 		<p class="help-block">Add negative keywords using , or tabs after each word</p>
+
+	  		</div>
+	  	</div>
 	  	<div class="actions form-actions">
 	  		<%= submit_tag("Crawl",:class=>"btn btn-primary") %>
   		</div>

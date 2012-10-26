@@ -1,3 +1,4 @@
+require 'csv'
 class BatchController < ApplicationController
   def index
   	@batches = Batch.all

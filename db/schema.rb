@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120928101927) do
+ActiveRecord::Schema.define(:version => 20121018215853) do
 
   create_table "batches", :force => true do |t|
     t.string   "status"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(:version => 20120928101927) do
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
     t.integer  "min_keywords"
+    t.string   "neg_keywords"
   end
 
   create_table "matched_links", :force => true do |t|

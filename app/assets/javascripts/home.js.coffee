@@ -11,3 +11,9 @@ $ ->
   $("#cl-btn").click ->
    $("#keywords-select").select2 "val", ""
 
+  $("#neg-keywords-select").select2
+   tags: ["plesk", "cpanel", "forum", "domain for sale", "in construction"]
+   tokenSeparators: [","]
+    
+  $("#cl-btn-n").click ->
+   $("#neg-keywords-select").select2 "val", ""

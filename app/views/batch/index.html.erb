@@ -19,8 +19,8 @@
 		<td><%= batch.keywords %></td>
 		<td><%= batch.started_time %></td>
 		<td><%= batch.finish_time %></td>
-		<td><%= batch.total_time unless batch.nil? %></td>
-		<td><%= batch.sites.count %></td>
+		<td><%= batch.total_time(batch.id) unless batch.sites.last.nil? %></td>
+		<td><%= batch.sites.where(:scapped => true).count %></td>
 	</tr>
 	<% end %>
 </table>

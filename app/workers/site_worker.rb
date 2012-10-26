@@ -4,7 +4,7 @@ class SiteWorker
     errors = []
     site = Site.find(site_id)
     batch = site.batch
-    crawler = Crawler.new(site.url, batch.keywords.split(","), batch.min_keywords)
+    crawler = Crawler.new(site.url, batch.keywords.split(","), batch.neg_keywords.split(","), batch.min_keywords)
     crawler.crawl
     site.valid_site = crawler.isActive
     site.business = crawler.isBusiness
