@@ -1,4 +1,5 @@
 require 'rubygems'
+require 'timeout'
 require 'addressable/uri'
 require 'mechanize'
 require 'to_regexp'
@@ -39,9 +40,12 @@ class Crawler
       agent.open_timeout=4
       agent.log = Logger.new "mmech.log"
       agent.user_agent_alias = 'Mac Safari'
+      page = nil
       begin
-        page = agent.get(@url)
-        puts page.content_type
+	timeout(100) do
+          page = agent.get(@url)
+	end
+          page.content_type
         if /html/.match(page.content_type).nil?
           @isActive = false
           @title = page.content_type
@@ -51,9 +55,9 @@ class Crawler
       rescue Timeout::Error 
         @isActive = false
         return
-      rescue StandardError
+      rescue StandardError => e
         #if exception.response_code == '400' or exception.response_code == '500'
-          puts StandardError
+          puts e
           @isActive = false
           return
         #end
@@ -73,7 +77,7 @@ class Crawler
           str = "/"+keyword.to_s+"/" #Turn keyword into regexp
           regexp = str.to_regexp
           begin
-	    puts (regexp.match(link.uri.to_s).nil? and regexp.match(link.text).nil?)
+	    (regexp.match(link.uri.to_s).nil? and regexp.match(link.text).nil?)
           rescue StandardError
             next
           end
@@ -96,7 +100,7 @@ class Crawler
         str2 = "/"+neg.to_s+"/"
         regexp2 = str2.to_regexp
         begin
-          puts regexp2.match(page.parser.xpath('/html/body')[0].content).nil?
+          regexp2.match(page.parser.xpath('/html/body')[0].content).nil?
         rescue StandardError
           next
         end         
